@@ -1,0 +1,46 @@
+{
+    "name": "Early Apogee Detection",
+    "description": "Low altitude flight testing apogee detection at ~200m",
+    "version": "1.0",
+    "duration": 90.0,
+    
+    "flight_params": {
+        "target_apogee": 200,
+        "mass": 0.35,
+        "burn_time": 1.5
+    },
+    
+    "sensor_config": {
+        "baro_noise_std": 0.3,
+        "accel_noise_std": 0.02,
+        "sensor_failure_prob": 0.0
+    },
+    
+    "armed": true,
+    
+    "expected_events": [
+        {
+            "type": "phase_change",
+            "details": {"phase": "ascent"},
+            "min_time": 0.5,
+            "max_time": 2.0
+        },
+        {
+            "type": "phase_change",
+            "details": {"phase": "apogee"},
+            "min_time": 3.0,
+            "max_time": 10.0
+        },
+        {
+            "type": "deployment",
+            "min_time": 3.0,
+            "max_time": 15.0
+        }
+    ],
+    
+    "pass_criteria": {
+        "apogee_min": 150,
+        "apogee_max": 250,
+        "deploy_altitude_max": 250
+    }
+}

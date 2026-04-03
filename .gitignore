@@ -1,0 +1,12 @@
+# Build system outputs
+/build/
+
+# Local Pico SDK checkout (nested git repo)
+/pico-sdk/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local archives/artifacts
+*.zip

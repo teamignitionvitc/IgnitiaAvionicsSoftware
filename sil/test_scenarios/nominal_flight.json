@@ -1,0 +1,61 @@
+{
+    "name": "Nominal Flight Profile",
+    "description": "Standard CanSat flight to ~400m apogee with parachute deployment",
+    "version": "1.0",
+    "duration": 120.0,
+    
+    "flight_params": {
+        "target_apogee": 400,
+        "mass": 0.35,
+        "burn_time": 2.0
+    },
+    
+    "sensor_config": {
+        "baro_noise_std": 0.5,
+        "accel_noise_std": 0.02,
+        "gps_noise_std": 2.5,
+        "gps_fix_delay": 30.0,
+        "sensor_failure_prob": 0.0
+    },
+    
+    "armed": true,
+    
+    "expected_events": [
+        {
+            "type": "phase_change",
+            "details": {"phase": "ascent"},
+            "min_time": 0.5,
+            "max_time": 2.0
+        },
+        {
+            "type": "phase_change", 
+            "details": {"phase": "apogee"},
+            "min_time": 5.0,
+            "max_time": 15.0
+        },
+        {
+            "type": "deployment",
+            "min_time": 5.0,
+            "max_time": 20.0
+        },
+        {
+            "type": "phase_change",
+            "details": {"phase": "descent"},
+            "min_time": 6.0,
+            "max_time": 25.0
+        },
+        {
+            "type": "phase_change",
+            "details": {"phase": "landed"},
+            "min_time": 30.0,
+            "max_time": 120.0
+        }
+    ],
+    
+    "pass_criteria": {
+        "apogee_min": 350,
+        "apogee_max": 500,
+        "deploy_altitude_max": 500,
+        "landing_velocity_max": 5.0
+    }
+}

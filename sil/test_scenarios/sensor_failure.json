@@ -1,0 +1,44 @@
+{
+    "name": "Sensor Failure Scenario",
+    "description": "Test flight with simulated sensor failures",
+    "version": "1.0",
+    "duration": 120.0,
+    
+    "flight_params": {
+        "target_apogee": 350,
+        "mass": 0.35,
+        "burn_time": 2.0
+    },
+    
+    "sensor_config": {
+        "baro_noise_std": 1.0,
+        "accel_noise_std": 0.05,
+        "gps_noise_std": 5.0,
+        "sensor_failure_prob": 0.001
+    },
+    
+    "armed": true,
+    
+    "notes": [
+        "This scenario tests system resilience to noisy sensors",
+        "0.1% chance of sensor failure per second",
+        "System should still deploy parachute safely"
+    ],
+    
+    "expected_events": [
+        {
+            "type": "phase_change",
+            "details": {"phase": "ascent"},
+            "max_time": 3.0
+        },
+        {
+            "type": "deployment",
+            "max_time": 60.0
+        }
+    ],
+    
+    "pass_criteria": {
+        "must_deploy": true,
+        "deploy_altitude_max": 500
+    }
+}

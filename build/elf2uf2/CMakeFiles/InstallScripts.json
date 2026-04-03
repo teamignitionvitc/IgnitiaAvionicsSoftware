@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/IGNITION/Ignitia_Avionics/build/elf2uf2/cmake_install.cmake",
+		"E:/IGNITION/Ignitia_Avionics/build/elf2uf2/boot_uf2_headers/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
