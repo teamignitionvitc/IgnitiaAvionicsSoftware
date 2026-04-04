@@ -44,3 +44,13 @@ target_include_directories(test_ring_buffer PRIVATE
     ${CMAKE_SOURCE_DIR}/src/utils
 )
 target_link_libraries(test_ring_buffer unity)
+
+add_executable(test_state_transitions
+    test_state_transitions.c
+    ${CMAKE_SOURCE_DIR}/src/modules/state_machine.c
+)
+target_include_directories(test_state_transitions PRIVATE
+    ${CMAKE_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/src/modules
+)
+target_link_libraries(test_state_transitions pico_stdlib)

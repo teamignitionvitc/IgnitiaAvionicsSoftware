@@ -7,6 +7,7 @@
 #define FLIGHT_STATE_H
 
 #include "config.h"
+#include "state_machine.h"
 #include <stdint.h>
 #include <stdbool.h>
 

@@ -107,10 +107,19 @@
 #define TELEMETRY_BUFFER_SIZE       512
 #define LOG_TIMESTAMP_ENABLE        1
 
-#define MAIN_LOOP_INTERVAL_MS       10
+#define MAIN_LOOP_INTERVAL_MS       20
 #define SENSOR_READ_INTERVAL_MS     10
-#define GPS_READ_INTERVAL_MS        200
-#define TELEMETRY_INTERVAL_MS       100
+
+// CRITICAL FIX (Issue 7): Task prioritization intervals
+// HIGH priority (every loop): sensors, filtering, fusion, state, logic, deployment
+// MEDIUM priority (every N loops): telemetry
+// LOW priority (every N loops): GPS, logging
+#define TELEMETRY_INTERVAL          2    // Every 2 loops = ~40ms at 50Hz = 25 Hz
+#define GPS_READ_INTERVAL           10   // Every 10 loops = ~500ms at 50Hz = 2 Hz
+#define LOGGING_INTERVAL            5    // Every 5 loops = ~100ms at 50Hz = 10 Hz
+
+// CRITICAL FIX (Issue 5): Watchdog timer timeout
+#define WATCHDOG_TIMEOUT_MS         150  // 100-200ms for 50Hz loop (20ms nominal)
 
 // =============================================================================
 // FILTER PARAMETERS
@@ -127,31 +136,40 @@
 #define DEBUG_RAW_SENSORS           0
 
 // =============================================================================
-// FLIGHT STATES (DRONE DROP MODE)
+// FEATURE FLAGS (Compile-time configuration)
 // =============================================================================
-typedef enum {
-    STATE_INIT = 0,         // System initialization
-    STATE_IDLE,             // On ground, waiting
-    STATE_ARMED,            // Attached to drone, waiting for drop
-    STATE_FREEFALL,         // Dropped, in freefall
-    STATE_DEPLOYED,         // Parachute deployed, descending
-    STATE_LANDED,           // On ground
-    STATE_ERROR             // Error state
-} FlightState;
+#define TEST_MODE                   0    // 0 = Normal, 1 = Test mode
+#define SERIAL_ECHO_TEST_MODE       0    // 0 = Normal firmware, 1 = serial-only echo loop (debug USB input)
+#define LOGGING_ENABLED             1    // 0 = Disabled, 1 = Enabled
+#define TELEMETRY_ENABLED           1    // 0 = Disabled, 1 = Enabled
+#define GPS_ENABLED                 1    // 0 = Disabled, 1 = Enabled
+#define DEBUG_OUTPUT                0    // 0 = Disabled, 1 = Enabled
 
 // =============================================================================
-// ERROR CODES
+// TUNABLE PARAMETERS (Easy configuration)
 // =============================================================================
-typedef enum {
-    ERR_NONE = 0,
-    ERR_I2C_INIT,
-    ERR_MPU6050_INIT,
-    ERR_BME280_INIT,
-    ERR_GPS_INIT,
-    ERR_SERVO_INIT,
-    ERR_SENSOR_READ,
-    ERR_DEPLOYMENT_FAILED,
-    ERR_BUFFER_OVERFLOW
-} ErrorCode;
+
+// Detection thresholds
+#define FREEFALL_ACCEL_THRESHOLD    0.3f        // g - freefall detection
+#define FREEFALL_VELOCITY_THRESHOLD -200        // cm/s - falling velocity (fixed-point)
+#define APOGEE_POSITIVE_THRESHOLD   50          // cm/s - velocity must be above this before apogee
+#define APOGEE_NEGATIVE_THRESHOLD   -20         // cm/s - velocity must drop below this for apogee
+#define APOGEE_CONFIRMATION_COUNT   3           // Consecutive readings to confirm apogee
+
+// Timeout values
+#define FREEFALL_TIMEOUT_MS         60000       // ms - force deploy after this in freefall
+#define APOGEE_TIMEOUT_MS           5000        // ms - force deploy after this at apogee
+#define DEPLOYED_TIMEOUT_MS         120000      // ms - force landing after this when deployed
+
+// Filter parameters
+#define COMPLEMENTARY_ALPHA_NORMAL  0.7f        // 70% accel + 30% baro (normal)
+#define COMPLEMENTARY_ALPHA_NOISY   0.5f        // 50% accel + 50% baro (high noise)
+#define NOISE_VARIANCE_THRESHOLD    5.0f        // m² - variance threshold for high noise
+
+// Clamping limits
+#define MAX_VELOCITY_MPS            50.0f       // m/s - maximum velocity
+#define MAX_VELOCITY_CMPS           5000        // cm/s - maximum velocity (fixed-point)
+#define MAX_ALTITUDE_M              5000.0f     // m - maximum altitude
+#define MAX_ACCEL_G                 3.0f        // g - maximum acceleration
 
 #endif // CONFIG_H

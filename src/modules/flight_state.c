@@ -14,13 +14,13 @@
 #include <math.h>
 
 static const char* state_names[] = {
-    "INIT", "IDLE", "ARMED", "FREEFALL", "DEPLOYED", "LANDED", "ERROR"
+    "IDLE", "ARMED", "FREEFALL", "APOGEE", "DEPLOYED", "LANDED"
 };
 
 void flight_state_init(FlightStateContext *ctx) {
     memset(ctx, 0, sizeof(FlightStateContext));
-    ctx->current_state = STATE_INIT;
-    ctx->previous_state = STATE_INIT;
+    ctx->current_state = STATE_IDLE;
+    ctx->previous_state = STATE_IDLE;
     ctx->state_entry_time = to_ms_since_boot(get_absolute_time());
 }
 
@@ -41,10 +41,6 @@ void flight_state_update(FlightStateContext *ctx, float altitude, float velocity
     }
     
     switch (ctx->current_state) {
-        case STATE_INIT:
-            transition_to(ctx, STATE_IDLE);
-            break;
-            
         case STATE_IDLE:
             // Wait for arm command - nothing to do here
             break;
@@ -97,8 +93,8 @@ void flight_state_update(FlightStateContext *ctx, float altitude, float velocity
             // Final state - nothing to do
             break;
             
-        case STATE_ERROR:
-            // Stay in error state
+        case STATE_APOGEE:
+            // Apogee detection - transition to deployed when parachute activates
             break;
     }
 }
@@ -108,7 +104,7 @@ FlightState flight_state_get(const FlightStateContext *ctx) {
 }
 
 const char* flight_state_name(FlightState state) {
-    if (state <= STATE_ERROR) {
+    if (state <= STATE_LANDED) {
         return state_names[state];
     }
     return "UNKNOWN";

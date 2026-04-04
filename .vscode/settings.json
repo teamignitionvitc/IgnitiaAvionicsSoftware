@@ -1,0 +1,10 @@
+{
+  "cmake.generator": "Ninja",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureSettings": {
+    "PICO_SDK_PATH": "${workspaceFolder}/pico-sdk",
+    "PICO_BOARD": "pico",
+    "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+  },
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json"
+}

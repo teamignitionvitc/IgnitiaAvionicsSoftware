@@ -128,12 +128,24 @@ class SILRunner:
         all_pass = True
         for expected in expected_events:
             event_type = expected['type']
+            expected_details = expected.get('details') or {}
             
             # Find matching event
-            matching = [e for e in self.events if e.event_type == event_type]
+            matching: list[FlightEvent] = []
+            for event in self.events:
+                if event.event_type != event_type:
+                    continue
+
+                if expected_details and not all(event.details.get(k) == v for k, v in expected_details.items()):
+                    continue
+
+                matching.append(event)
             
             if not matching:
-                logger.error(f"FAIL: Expected event '{event_type}' not found")
+                if expected_details:
+                    logger.error(f"FAIL: Expected event '{event_type}' with details {expected_details} not found")
+                else:
+                    logger.error(f"FAIL: Expected event '{event_type}' not found")
                 all_pass = False
                 continue
             

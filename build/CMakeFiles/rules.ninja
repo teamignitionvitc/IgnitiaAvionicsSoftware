@@ -17,7 +17,7 @@
 rule ASM_COMPILER__ignitia_avionics_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\arm-toolchain\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -27,7 +27,7 @@ rule ASM_COMPILER__ignitia_avionics_unscanned_Release
 rule C_COMPILER__ignitia_avionics_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\arm-toolchain\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -37,7 +37,7 @@ rule C_COMPILER__ignitia_avionics_unscanned_Release
 rule CXX_COMPILER__ignitia_avionics_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR10B2~1.EXE $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\arm-toolchain\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -45,7 +45,7 @@ rule CXX_COMPILER__ignitia_avionics_unscanned_Release
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ignitia_avionics_Release
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR10B2~1.EXE $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\arm-toolchain\bin\arm-none-eabi-g++.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
   rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
@@ -66,7 +66,7 @@ rule CUSTOM_COMMAND
 rule ASM_COMPILER__bs2_default_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\arm-toolchain\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -74,16 +74,26 @@ rule ASM_COMPILER__bs2_default_unscanned_Release
 # Rule for linking ASM executable.
 
 rule ASM_EXECUTABLE_LINKER__bs2_default_Release
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\arm-toolchain\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking ASM executable $TARGET_FILE
   restat = $RESTAT
+
+
+#############################################
+# Rule for compiling ASM files.
+
+rule ASM_COMPILER__bs2_default_library_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\arm-toolchain\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  description = Building ASM object $out
 
 
 #############################################
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SE:\IGNITION\Ignitia_Avionics -BE:\IGNITION\Ignitia_Avionics\build
+  command = "C:\Users\Neil baranwal\scoop\apps\cmake\current\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Neil baranwal\Downloads\avionics_cansat\IgnitiaAvionicsSoftware" -B"C:\Users\Neil baranwal\Downloads\avionics_cansat\IgnitiaAvionicsSoftware\build"
   description = Re-running CMake...
   generator = 1
 
@@ -92,7 +102,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\ninja\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\NEILBA~1\scoop\shims\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -100,6 +110,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\ninja\ninja.exe -t targets
+  command = C:\Users\NEILBA~1\scoop\shims\ninja.exe -t targets
   description = All primary targets available:
 
