@@ -45,6 +45,7 @@ class SILRunner:
         self.sensors = SensorModels()
         self.events: list[FlightEvent] = []
         self.telemetry_log: list[dict] = []
+        self._last_phase: Optional[str] = None
         
     def load_scenario(self, scenario_file: str) -> dict:
         """Load flight scenario from JSON file"""
@@ -104,12 +105,13 @@ class SILRunner:
         phase = state['phase']
         
         # Record phase transitions
-        if len(self.events) == 0 or self.events[-1].details.get('phase') != phase:
+        if self._last_phase != phase:
             self.events.append(FlightEvent(
                 timestamp=sim_time,
                 event_type='phase_change',
                 details={'phase': phase}
             ))
+            self._last_phase = phase
             logger.info(f"t={sim_time:.2f}s: Phase -> {phase}")
         
         # Check for deployment
@@ -128,26 +130,37 @@ class SILRunner:
         all_pass = True
         for expected in expected_events:
             event_type = expected['type']
+            expected_details = expected.get('details', {})
             
-            # Find matching event
+            # Find matching events, including optional detail filters.
             matching = [e for e in self.events if e.event_type == event_type]
+            if expected_details:
+                matching = [
+                    e for e in matching
+                    if all(e.details.get(k) == v for k, v in expected_details.items())
+                ]
             
             if not matching:
-                logger.error(f"FAIL: Expected event '{event_type}' not found")
+                logger.error(f"FAIL: Expected event '{event_type}' with details {expected_details} not found")
                 all_pass = False
                 continue
-            
-            event = matching[0]
-            
-            # Check timing constraints
-            if 'min_time' in expected and event.timestamp < expected['min_time']:
-                logger.error(f"FAIL: {event_type} too early ({event.timestamp:.2f}s < {expected['min_time']}s)")
-                all_pass = False
-            elif 'max_time' in expected and event.timestamp > expected['max_time']:
-                logger.error(f"FAIL: {event_type} too late ({event.timestamp:.2f}s > {expected['max_time']}s)")
-                all_pass = False
+
+            min_t = expected.get('min_time', float('-inf'))
+            max_t = expected.get('max_time', float('inf'))
+            in_window = [e for e in matching if min_t <= e.timestamp <= max_t]
+            if in_window:
+                event = in_window[0]
+                logger.info(f"PASS: {event_type} {expected_details} at t={event.timestamp:.2f}s")
             else:
-                logger.info(f"PASS: {event_type} at t={event.timestamp:.2f}s")
+                closest = min(
+                    matching,
+                    key=lambda e: 0 if (min_t <= e.timestamp <= max_t) else min(abs(e.timestamp - min_t), abs(e.timestamp - max_t))
+                )
+                logger.error(
+                    f"FAIL: {event_type} {expected_details} outside timing window "
+                    f"[{min_t:.2f}, {max_t:.2f}]s, observed at {closest.timestamp:.2f}s"
+                )
+                all_pass = False
         
         # Check deployment altitude if applicable
         deploy_events = [e for e in self.events if e.event_type == 'deployment']
@@ -164,7 +177,8 @@ class SILRunner:
             'events': [{'time': e.timestamp, 'type': e.event_type, **e.details} for e in self.events],
             'telemetry': self.telemetry_log
         }
-        
+
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
         with open(output_file, 'w') as f:
             json.dump(results, f, indent=2)
         logger.info(f"Results saved to {output_file}")

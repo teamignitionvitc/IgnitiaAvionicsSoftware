@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SE:\IGNITION\Ignitia_Avionics\pico-sdk\tools\elf2uf2 -BE:\IGNITION\Ignitia_Avionics\build\elf2uf2
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SE:\IGNITION\IgnitiaAvionicsSoftware\pico-sdk\tools\elf2uf2 -BE:\IGNITION\IgnitiaAvionicsSoftware\build\elf2uf2
   description = Re-running CMake...
   generator = 1
 

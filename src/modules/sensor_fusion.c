@@ -26,16 +26,57 @@ void fusion_update(FusionState *state, const BME280_Data *baro, const MPU6050_Da
     
     // Altitude from barometer
     if (baro) {
-        float new_altitude = baro->altitude;
+        float prev_altitude = state->altitude;
+        float new_altitude_abs = baro->altitude;
+
+        // Initialize altitude zero from startup average so relative altitude starts near 0 m.
+        if (!state->altitude_zeroed) {
+            state->altitude_ref_accum += new_altitude_abs;
+            state->altitude_ref_samples++;
+
+            if (state->altitude_ref_samples >= ALTITUDE_ZERO_CAL_SAMPLES) {
+                state->altitude_reference = state->altitude_ref_accum / (float)state->altitude_ref_samples;
+                state->altitude_zeroed = true;
+            }
+        }
+
+        if (state->altitude_zeroed && imu) {
+            bool stationary = (fabsf(state->velocity) < BARO_IDLE_VEL_THRESHOLD) &&
+                              (fabsf(imu->accel_magnitude - 1.0f) < BARO_IDLE_ACCEL_TOL_G);
+            if (stationary) {
+                state->altitude_reference = low_pass_filter(
+                    state->altitude_reference,
+                    new_altitude_abs,
+                    BARO_IDLE_REZERO_RATE
+                );
+            }
+        }
+
+        float new_altitude = state->altitude_zeroed ?
+            (new_altitude_abs - state->altitude_reference) :
+            0.0f;
+
+        // Reject unrealistic single-sample altitude jumps from barometer noise/spikes.
+        if (fabsf(new_altitude - prev_altitude) > ALTITUDE_OUTLIER_REJECT_M) {
+            new_altitude = prev_altitude;
+        }
+
         state->altitude_raw = new_altitude;
-        
-        // Low-pass filter altitude
-        state->altitude = low_pass_filter(state->altitude, new_altitude, ALTITUDE_FILTER_ALPHA);
-        
-        // Estimate velocity from altitude change
-        float raw_velocity = (new_altitude - state->altitude) / dt;
+
+        // Exponential moving average filter
+        state->altitude = low_pass_filter(prev_altitude, new_altitude, ALTITUDE_FILTER_ALPHA);
+
+        // Estimate velocity from filtered altitude change
+        float raw_velocity = (state->altitude - prev_altitude) / dt;
+        if (raw_velocity > VELOCITY_CLAMP_MPS) raw_velocity = VELOCITY_CLAMP_MPS;
+        if (raw_velocity < -VELOCITY_CLAMP_MPS) raw_velocity = -VELOCITY_CLAMP_MPS;
+
         state->velocity_raw = raw_velocity;
         state->velocity = low_pass_filter(state->velocity, raw_velocity, VELOCITY_FILTER_ALPHA);
+
+        if (fabsf(state->velocity) < VELOCITY_DEADBAND_MPS) {
+            state->velocity = 0.0f;
+        }
     }
     
     // Attitude from IMU (complementary filter)
@@ -78,6 +119,7 @@ void fusion_get_attitude(const FusionState *state, float *roll, float *pitch, fl
 }
 
 void fusion_reset(FusionState *state) {
-    memset(state, 0, sizeof(FusionState));
-    state->last_update = to_ms_since_boot(get_absolute_time());
+    state->altitude = 0.0f;
+    state->velocity = 0.0f;
+    state->last_update = 0;
 }

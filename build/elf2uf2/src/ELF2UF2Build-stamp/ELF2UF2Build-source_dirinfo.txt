@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=E:/IGNITION/Ignitia_Avionics/pico-sdk/tools/elf2uf2
+source_dir=E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/tools/elf2uf2
 work_dir=
 

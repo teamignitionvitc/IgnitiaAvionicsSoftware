@@ -228,6 +228,9 @@ def configure_cmake(project_dir, build_dir, tools, generator=None):
         '-B', str(build_dir),
         '-G', generator,
         '-DCMAKE_BUILD_TYPE=Release',
+        # CMake 4 removed compatibility with very old policy versions.
+        # Pico SDK helper sub-builds (like pioasm) can require this override.
+        '-DCMAKE_POLICY_VERSION_MINIMUM=3.5',
     ]
     
     # Add Ninja path if using Ninja

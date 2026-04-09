@@ -11,9 +11,77 @@
 #include <stdarg.h>
 #include <string.h>
 
+#include "hardware/uart.h"
+#include "hardware/gpio.h"
+
+// UART and LED pin config (matching Python example)
+#ifndef SIMPLE_TELEM_UART
+#define SIMPLE_TELEM_UART uart0
+#endif
+#ifndef SIMPLE_TELEM_TX_PIN
+#define SIMPLE_TELEM_TX_PIN 0
+#endif
+#ifndef SIMPLE_TELEM_RX_PIN
+#define SIMPLE_TELEM_RX_PIN 1
+#endif
+#ifndef SIMPLE_TELEM_BAUD
+#define SIMPLE_TELEM_BAUD 115200
+#endif
+#ifndef SIMPLE_TELEM_LED_PIN
+#define SIMPLE_TELEM_LED_PIN 16
+#endif
+
+static bool simple_telem_uart_initialized = false;
+static bool simple_telem_led_initialized = false;
+
+void telemetry_send_simple_packet(uint32_t timestamp, float altitude, float velocity, uint8_t state) {
+    // Packet: 0xAA | <IffB> | 0x55 | '\n'
+    uint8_t packet[1 + 4 + 4 + 4 + 1 + 1 + 1];
+    size_t offset = 0;
+    packet[offset++] = 0xAA;
+    memcpy(&packet[offset], &timestamp, 4); offset += 4;
+    memcpy(&packet[offset], &altitude, 4); offset += 4;
+    memcpy(&packet[offset], &velocity, 4); offset += 4;
+    packet[offset++] = state;
+    packet[offset++] = 0x55;
+    packet[offset++] = '\n';
+
+    // Init UART if not done
+    if (!simple_telem_uart_initialized) {
+        uart_init(SIMPLE_TELEM_UART, SIMPLE_TELEM_BAUD);
+        gpio_set_function(SIMPLE_TELEM_TX_PIN, GPIO_FUNC_UART);
+        gpio_set_function(SIMPLE_TELEM_RX_PIN, GPIO_FUNC_UART);
+        simple_telem_uart_initialized = true;
+    }
+
+    // Init LED if not done
+    if (!simple_telem_led_initialized) {
+        gpio_init(SIMPLE_TELEM_LED_PIN);
+        gpio_set_dir(SIMPLE_TELEM_LED_PIN, GPIO_OUT);
+        gpio_put(SIMPLE_TELEM_LED_PIN, 0);
+        simple_telem_led_initialized = true;
+    }
+
+    // LED on
+    if (simple_telem_led_initialized) gpio_put(SIMPLE_TELEM_LED_PIN, 1);
+
+    uart_write_blocking(SIMPLE_TELEM_UART, packet, sizeof(packet));
+
+    // LED off
+    if (simple_telem_led_initialized) gpio_put(SIMPLE_TELEM_LED_PIN, 0);
+
+    // Debug print (always assume TX OK since uart_write_blocking is void)
+    printf("[SIMPLE_TELEM] TX OK: %d\r\n", (int)sizeof(packet));
+}
 void telemetry_init(void) {
     // Initialize NRF radio
     nrf_init();
+
+    // Check NRF radio by sending a test status packet
+    const char *test_msg = "NRF TEST";
+    printf("[NRF] Checking radio link...\r\n");
+    nrf_send_status(test_msg);
+    // The result will be printed by nrf_send_status (success/fail)
 }
 
 void telemetry_send_packet(const FlightStateContext *flight, const BME280_Data *env,

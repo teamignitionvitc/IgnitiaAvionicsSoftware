@@ -22,4 +22,8 @@ void telemetry_send_status(const char *message);
 void telemetry_send_debug(const char *format, ...);
 void telemetry_process(void);
 
+// Sends a simple telemetry packet: timestamp (ms), altitude (float), velocity (float), state (uint8_t)
+// Format: 0xAA | <IffB> | 0x55 (matches Python example)
+void telemetry_send_simple_packet(uint32_t timestamp, float altitude, float velocity, uint8_t state);
+
 #endif // TELEMETRY_H

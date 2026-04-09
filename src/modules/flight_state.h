@@ -15,13 +15,20 @@ typedef struct {
     FlightState previous_state;
     uint32_t state_entry_time;
     uint32_t drop_time;             // Time when drop was detected
+    uint32_t baseline_init_time;    // Time when altitude baseline was initialized
     float arm_altitude;             // Altitude when armed
+    float baseline_altitude;        // Ground/baseline altitude for launch detection
+    float launch_altitude;          // Altitude where launch/ascent was confirmed
     float drop_altitude;            // Altitude at drop
     float max_altitude;             // Maximum recorded altitude
     float current_altitude;
     float current_velocity;
+    float prev_velocity;
     float current_accel;
     bool deployed;
+    bool altitude_baseline_valid;
+    uint8_t launch_confirm_count;   // Consecutive ascent readings
+    uint8_t apogee_confirm_count;   // Consecutive negative velocity readings
     uint8_t drop_confirm_count;     // Consecutive freefall readings
 } FlightStateContext;
 

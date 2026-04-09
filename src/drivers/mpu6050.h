@@ -33,5 +33,7 @@ void mpu6050_set_calibration(const MPU6050_Calibration *cal);
 void mpu6050_reset(void);
 void mpu6050_sleep(void);
 void mpu6050_wake(void);
+const char* mpu6050_get_type_name(void);
+uint8_t mpu6050_get_who_am_i(void);
 
 #endif // MPU6050_H

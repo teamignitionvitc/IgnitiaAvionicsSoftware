@@ -7,6 +7,7 @@
 #include "config.h"
 #include "hardware/i2c.h"
 #include <math.h>
+#include <stdio.h>
 
 #define BME280_REG_CALIB00      0x88
 #define BME280_REG_CALIB26      0xE1
@@ -19,7 +20,11 @@
 #define BME280_REG_PRESS_MSB    0xF7
 
 #define BME280_CHIP_ID          0x60
+#define BMP280_CHIP_ID          0x58
+#define BME280_ALT_ADDR         0x77
 #define BME280_RESET_VAL        0xB6
+#define I2C_TIMEOUT_US          20000
+#define I2C_RETRY_COUNT         3
 
 typedef struct {
     uint16_t dig_T1;
@@ -34,15 +39,74 @@ typedef struct {
 static BME280_Calib calib;
 static int32_t t_fine;
 static float ground_pressure = GROUND_PRESSURE_DEFAULT;
+static uint8_t sensor_chip_id = 0x00;  // Track sensor type (0x58=BMP280, 0x60=BME280)
+static uint8_t bme_addr = BME280_ADDR;
+
+static bool probe_addr(uint8_t addr, uint8_t *chip_id) {
+    uint8_t reg = BME280_REG_CHIP_ID;
+    int w_rc = 0;
+    int r_rc = 0;
+
+    for (int attempt = 0; attempt < I2C_RETRY_COUNT; attempt++) {
+        // Preferred path: repeated-start register read.
+        w_rc = i2c_write_timeout_us(I2C_PORT, addr, &reg, 1, true, I2C_TIMEOUT_US);
+        if (w_rc == 1) {
+            r_rc = i2c_read_timeout_us(I2C_PORT, addr, chip_id, 1, false, I2C_TIMEOUT_US);
+            if (r_rc == 1) {
+                return true;
+            }
+        }
+
+        // Fallback path: STOP between register write and read.
+        w_rc = i2c_write_timeout_us(I2C_PORT, addr, &reg, 1, false, I2C_TIMEOUT_US);
+        if (w_rc == 1) {
+            sleep_us(50);
+            r_rc = i2c_read_timeout_us(I2C_PORT, addr, chip_id, 1, false, I2C_TIMEOUT_US);
+            if (r_rc == 1) {
+                return true;
+            }
+        }
+
+        sleep_us(100);
+    }
+
+#if DEBUG_ENABLE
+    printf("BMP probe 0x%02X failed (w_rc=%d r_rc=%d)\r\n", addr, w_rc, r_rc);
+#endif
+    return false;
+}
 
 static bool write_reg(uint8_t reg, uint8_t value) {
     uint8_t buf[2] = {reg, value};
-    return i2c_write_blocking(I2C_PORT, BME280_ADDR, buf, 2, false) == 2;
+    for (int attempt = 0; attempt < I2C_RETRY_COUNT; attempt++) {
+        if (i2c_write_timeout_us(I2C_PORT, bme_addr, buf, 2, false, I2C_TIMEOUT_US) == 2) {
+            return true;
+        }
+        sleep_us(100);
+    }
+    return false;
 }
 
 static bool read_regs(uint8_t reg, uint8_t *buf, size_t len) {
-    if (i2c_write_blocking(I2C_PORT, BME280_ADDR, &reg, 1, true) != 1) return false;
-    return i2c_read_blocking(I2C_PORT, BME280_ADDR, buf, len, false) == (int)len;
+    for (int attempt = 0; attempt < I2C_RETRY_COUNT; attempt++) {
+        // Preferred path: repeated-start register read.
+        if (i2c_write_timeout_us(I2C_PORT, bme_addr, &reg, 1, true, I2C_TIMEOUT_US) == 1) {
+            if (i2c_read_timeout_us(I2C_PORT, bme_addr, buf, len, false, I2C_TIMEOUT_US) == (int)len) {
+                return true;
+            }
+        }
+
+        // Fallback path: STOP between register write and read.
+        if (i2c_write_timeout_us(I2C_PORT, bme_addr, &reg, 1, false, I2C_TIMEOUT_US) == 1) {
+            sleep_us(50);
+            if (i2c_read_timeout_us(I2C_PORT, bme_addr, buf, len, false, I2C_TIMEOUT_US) == (int)len) {
+                return true;
+            }
+        }
+
+        sleep_us(100);
+    }
+    return false;
 }
 
 static bool read_calibration(void) {
@@ -76,37 +140,92 @@ static bool read_calibration(void) {
 }
 
 bool bme280_init(void) {
-    uint8_t chip_id;
-    if (!read_regs(BME280_REG_CHIP_ID, &chip_id, 1) || chip_id != BME280_CHIP_ID) {
+    uint8_t chip_id = 0;
+    const uint8_t addrs[] = {BME280_ADDR, BME280_ALT_ADDR};
+    bool found = false;
+
+    for (size_t i = 0; i < sizeof(addrs); i++) {
+        uint8_t probed_id = 0;
+        if (probe_addr(addrs[i], &probed_id) &&
+            (probed_id == BME280_CHIP_ID || probed_id == BMP280_CHIP_ID)) {
+            bme_addr = addrs[i];
+            chip_id = probed_id;
+            found = true;
+            break;
+        }
+    }
+
+    if (!found) {
+#if DEBUG_ENABLE
+        printf("BME280/BMP280 probe failed (no response at 0x%02X or 0x%02X)\r\n", BME280_ADDR, BME280_ALT_ADDR);
+#endif
         return false;
     }
     
+    if (chip_id != BME280_CHIP_ID && chip_id != BMP280_CHIP_ID) {
+#if DEBUG_ENABLE
+        printf("BME280/BMP280 probe failed (CHIP_ID=0x%02X, expected 0x%02X or 0x%02X)\r\n", 
+               chip_id, BME280_CHIP_ID, BMP280_CHIP_ID);
+#endif
+        return false;
+    }
+    
+    sensor_chip_id = chip_id;  // Store for later use
+    // Print a friendly name
+    printf("INFO: Found %s sensor\n", (chip_id == BMP280_CHIP_ID) ? "BMP280" : "BME280");
+
+    // Set the configuration
+    // ... existing code ...
     if (!write_reg(BME280_REG_RESET, BME280_RESET_VAL)) return false;
     sleep_ms(10);
     
     uint8_t status;
+    int retry = 0;
     do {
         if (!read_regs(BME280_REG_STATUS, &status, 1)) return false;
         sleep_ms(1);
-    } while (status & 0x01);
+        retry++;
+    } while ((status & 0x01) && retry < 10);  // Limit retries to prevent hangs
     
     if (!read_calibration()) return false;
     
-    if (!write_reg(BME280_REG_CTRL_HUM, BME280_OVERSAMPLE_HUM)) return false;
+    // Only configure humidity for BME280 (has humidity sensor)
+    if (chip_id == BME280_CHIP_ID) {
+        if (!write_reg(BME280_REG_CTRL_HUM, BME280_OVERSAMPLE_HUM)) return false;
+    }
     
-    uint8_t config = (BME280_FILTER_COEFF << 2);
+    uint8_t config = (BME280_FILTER_COEFF << 2) | (BME280_STANDBY_TIME << 5);
     if (!write_reg(BME280_REG_CONFIG, config)) return false;
     
-    uint8_t ctrl = (BME280_OVERSAMPLE_TEMP << 5) | (BME280_OVERSAMPLE_PRESS << 2) | 0x03;
+    uint8_t ctrl = (BME280_OVERSAMPLE_TEMP << 5) | (BME280_OVERSAMPLE_PRESS << 2) | BME280_MODE;
     if (!write_reg(BME280_REG_CTRL_MEAS, ctrl)) return false;
+    
+#if DEBUG_ENABLE
+    const char *sensor_name = (sensor_chip_id == BMP280_CHIP_ID) ? "BMP280" : "BME280";
+    printf("%s initialized (temp x%d, press x%d%s)\r\n", sensor_name,
+           1 << (BME280_OVERSAMPLE_TEMP > 0 ? BME280_OVERSAMPLE_TEMP - 1 : 0), 
+           1 << (BME280_OVERSAMPLE_PRESS > 0 ? BME280_OVERSAMPLE_PRESS - 1 : 0),
+           sensor_chip_id == BME280_CHIP_ID ? ", hum x1" : "");
+#endif
     
     return true;
 }
 
 bool bme280_is_connected(void) {
-    uint8_t chip_id;
-    if (!read_regs(BME280_REG_CHIP_ID, &chip_id, 1)) return false;
-    return chip_id == BME280_CHIP_ID;
+    uint8_t chip_id = 0;
+    if (probe_addr(bme_addr, &chip_id)) {
+        if (chip_id == BME280_CHIP_ID || chip_id == BMP280_CHIP_ID) return true;
+    }
+
+    const uint8_t addrs[] = {BME280_ADDR, BME280_ALT_ADDR};
+    for (size_t i = 0; i < sizeof(addrs); i++) {
+        if (probe_addr(addrs[i], &chip_id) &&
+            (chip_id == BME280_CHIP_ID || chip_id == BMP280_CHIP_ID)) {
+            bme_addr = addrs[i];
+            return true;
+        }
+    }
+    return false;
 }
 
 static float compensate_temperature(int32_t adc_T) {
@@ -159,11 +278,18 @@ bool bme280_read(BME280_Data *data) {
     
     int32_t adc_P = ((int32_t)buf[0] << 12) | ((int32_t)buf[1] << 4) | ((int32_t)buf[2] >> 4);
     int32_t adc_T = ((int32_t)buf[3] << 12) | ((int32_t)buf[4] << 4) | ((int32_t)buf[5] >> 4);
-    int32_t adc_H = ((int32_t)buf[6] << 8) | (int32_t)buf[7];
     
     data->temperature = compensate_temperature(adc_T);
     data->pressure = compensate_pressure(adc_P);
-    data->humidity = compensate_humidity(adc_H);
+    
+    // BMP280 doesn't have humidity sensor; set to 0 for BMP280, compute for BME280
+    if (sensor_chip_id == BMP280_CHIP_ID) {
+        data->humidity = 0.0f;
+    } else {
+        int32_t adc_H = ((int32_t)buf[6] << 8) | (int32_t)buf[7];
+        data->humidity = compensate_humidity(adc_H);
+    }
+    
     data->altitude = bme280_calculate_altitude(data->pressure);
     
     return true;

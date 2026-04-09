@@ -1,3 +1,14 @@
+#include "hardware/uart.h"
+
+// Forward declaration for UART instance and send timeout
+#ifndef NRF_UART
+#define NRF_UART uart0
+#endif
+
+// Ensure timeout macro is visible everywhere
+#ifndef NRF_UART_SEND_TIMEOUT_US
+#define NRF_UART_SEND_TIMEOUT_US 300000
+#endif
 /**
  * @file nrf_radio.h
  * @brief NRF UART Radio driver for telemetry

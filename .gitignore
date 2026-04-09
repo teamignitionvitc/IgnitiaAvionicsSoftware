@@ -1,6 +1,5 @@
 # Build system outputs
 /build/
-
 # Local Pico SDK checkout (nested git repo)
 /pico-sdk/
 

@@ -4,11 +4,19 @@
  * 
  * States: INIT -> IDLE -> ARMED -> FREEFALL -> DEPLOYED -> LANDED
  * 
- * Drop detection: acceleration < 0.3g (freefall) OR velocity < -2m/s
+ * DRONE DROP PROFILE:
+ *   1. IDLE: Cansat on ground, waiting for arm command or altitude rise
+ *   2. ARMED: Attached to drone, ascending/hovering - waiting for drop
+ *   3. FREEFALL: Dropped! Detected via low acceleration (<0.5g) or rapid descent
+ *   4. DEPLOYED: Parachute released, descending slowly
+ *   5. LANDED: On ground, mission complete
+ * 
+ * Drop detection: acceleration < 0.5g (freefall) AND/OR velocity < -2m/s
  * Deploy: Shortly after drop detection when confirmed descending
  */
 
 #include "flight_state.h"
+#include "filters.h"
 #include "pico/stdlib.h"
 #include <string.h>
 #include <math.h>
@@ -22,6 +30,7 @@ void flight_state_init(FlightStateContext *ctx) {
     ctx->current_state = STATE_INIT;
     ctx->previous_state = STATE_INIT;
     ctx->state_entry_time = to_ms_since_boot(get_absolute_time());
+    ctx->baseline_init_time = ctx->state_entry_time;
 }
 
 static void transition_to(FlightStateContext *ctx, FlightState new_state) {
@@ -30,11 +39,34 @@ static void transition_to(FlightStateContext *ctx, FlightState new_state) {
     ctx->state_entry_time = to_ms_since_boot(get_absolute_time());
 }
 
+#define ACCEL_FILTER_ALPHA 0.2f
+static float filtered_accel = 1.0f;
+
 void flight_state_update(FlightStateContext *ctx, float altitude, float velocity, float accel_magnitude) {
     uint32_t now = to_ms_since_boot(get_absolute_time());
+
+    // Initialize and refresh altitude baseline while in non-flight states.
+    if (!ctx->altitude_baseline_valid) {
+        ctx->baseline_altitude = altitude;
+        ctx->altitude_baseline_valid = true;
+        ctx->baseline_init_time = now;
+    }
+
+    if (ctx->current_state == STATE_INIT || ctx->current_state == STATE_IDLE) {
+        // Track baseline only during startup settle window and only while nearly still.
+        if ((now - ctx->baseline_init_time) < BASELINE_SETTLE_TIME_MS &&
+            fabsf(velocity) < BARO_IDLE_VEL_THRESHOLD) {
+            ctx->baseline_altitude = low_pass_filter(ctx->baseline_altitude, altitude, BASELINE_TRACK_ALPHA);
+        }
+    }
+
     ctx->current_altitude = altitude;
+    ctx->prev_velocity = ctx->current_velocity;
     ctx->current_velocity = velocity;
-    ctx->current_accel = accel_magnitude;
+    
+    // Ignore acceleration for drop detection (per user request)
+    filtered_accel = 1.0f;
+    ctx->current_accel = filtered_accel;
     
     if (altitude > ctx->max_altitude) {
         ctx->max_altitude = altitude;
@@ -46,27 +78,38 @@ void flight_state_update(FlightStateContext *ctx, float altitude, float velocity
             break;
             
         case STATE_IDLE:
-            // Wait for arm command - nothing to do here
+            // Auto-arm when altitude rises significantly (drone taking off with cansat)
+            // This detects the drone ascending with the cansat attached
+            if ((altitude - ctx->baseline_altitude) > LAUNCH_ALTITUDE_RISE &&
+                velocity > LAUNCH_VELOCITY_THRESHOLD) {
+                if (ctx->launch_confirm_count < 255) ctx->launch_confirm_count++;
+            } else if (ctx->launch_confirm_count > 0) {
+                ctx->launch_confirm_count--;
+            }
+
+            if (ctx->launch_confirm_count >= LAUNCH_CONFIRMATION_COUNT) {
+                ctx->arm_altitude = ctx->baseline_altitude;
+                ctx->launch_altitude = altitude;
+                ctx->max_altitude = altitude;
+                ctx->drop_confirm_count = 0;
+                ctx->apogee_confirm_count = 0;
+                transition_to(ctx, STATE_ARMED);
+            }
             break;
             
         case STATE_ARMED:
-            // Detect drop: freefall (low g) or rapid descent
-            // Freefall: accel magnitude close to 0 (not 1g)
-            if (accel_magnitude < DROP_ACCEL_THRESHOLD) {
-                ctx->drop_confirm_count++;
-            } else if (velocity < DROP_VELOCITY_THRESHOLD) {
-                ctx->drop_confirm_count++;
-            } else {
-                // Reset if not in freefall
-                if (ctx->drop_confirm_count > 0) ctx->drop_confirm_count--;
-            }
+            // DRONE DROP DETECTION:
+            // When drone releases cansat, we experience freefall (very low acceleration)
+            // MUST be at altitude before accepting freefall detection to avoid false positives
             
-            // Also check altitude drop from armed altitude
-            if ((ctx->arm_altitude - altitude) > DROP_ALTITUDE_CHANGE) {
-                ctx->drop_confirm_count += 2;
+            // Deploy when altitude drops below max altitude (apogee) and descending
+            if (altitude < ctx->max_altitude && velocity < -0.5f) {
+                ctx->drop_time = now;
+                ctx->drop_altitude = altitude;
+                transition_to(ctx, STATE_FREEFALL);
             }
-            
-            // Confirm drop
+
+            // Trigger freefall state when drop is confirmed
             if (ctx->drop_confirm_count >= DROP_CONFIRMATION_COUNT) {
                 ctx->drop_time = now;
                 ctx->drop_altitude = altitude;
@@ -76,7 +119,7 @@ void flight_state_update(FlightStateContext *ctx, float altitude, float velocity
             
         case STATE_FREEFALL:
             // Brief state - deploy parachute quickly
-            // Wait for deploy delay then transition
+            // Deployment is handled by flight_state_should_deploy() + deployment module
             if (ctx->deployed) {
                 transition_to(ctx, STATE_DEPLOYED);
             }
@@ -84,9 +127,9 @@ void flight_state_update(FlightStateContext *ctx, float altitude, float velocity
             
         case STATE_DEPLOYED:
             // Descending with parachute - detect landing
+            // Must be low altitude AND slow velocity for sustained period
             if (altitude < LANDING_ALTITUDE_THRESHOLD && 
                 fabsf(velocity) < LANDING_VELOCITY_THRESHOLD) {
-                // Low and slow - might be landed
                 if ((now - ctx->state_entry_time) > LANDING_CONFIRMATION_TIME) {
                     transition_to(ctx, STATE_LANDED);
                 }
@@ -94,7 +137,7 @@ void flight_state_update(FlightStateContext *ctx, float altitude, float velocity
             break;
             
         case STATE_LANDED:
-            // Final state - nothing to do
+            // Final state - mission complete
             break;
             
         case STATE_ERROR:
@@ -139,10 +182,14 @@ bool flight_state_should_deploy(const FlightStateContext *ctx) {
         }
     }
     
-    // Safety: if armed and below safety altitude while descending
+    // Safety: if armed, was at altitude, now below safety threshold while descending fast
+    // This catches cases where freefall detection failed but we're clearly falling
     if (ctx->current_state == STATE_ARMED) {
-        if (ctx->current_altitude < DEPLOYMENT_SAFETY_ALT && 
-            ctx->current_velocity < -1.0f) {
+        // Only trigger if we actually reached flight altitude (max_altitude > ARM_ALTITUDE_MIN)
+        // AND we're now below safety threshold AND descending rapidly
+        if (ctx->max_altitude > ARM_ALTITUDE_MIN &&
+            ctx->current_altitude < DEPLOYMENT_SAFETY_ALT && 
+            ctx->current_velocity < -2.0f) {
             return true;
         }
     }
@@ -152,9 +199,16 @@ bool flight_state_should_deploy(const FlightStateContext *ctx) {
 
 void flight_state_arm(FlightStateContext *ctx) {
     if (ctx->current_state == STATE_IDLE) {
+        if (!ctx->altitude_baseline_valid) {
+            ctx->baseline_altitude = ctx->current_altitude;
+            ctx->altitude_baseline_valid = true;
+            ctx->baseline_init_time = to_ms_since_boot(get_absolute_time());
+        }
         ctx->arm_altitude = ctx->current_altitude;
+        ctx->launch_altitude = ctx->current_altitude;
         ctx->max_altitude = ctx->current_altitude;
         ctx->deployed = false;
+        ctx->launch_confirm_count = 0;
         ctx->drop_confirm_count = 0;
         transition_to(ctx, STATE_ARMED);
     }
@@ -162,6 +216,8 @@ void flight_state_arm(FlightStateContext *ctx) {
 
 void flight_state_disarm(FlightStateContext *ctx) {
     if (ctx->current_state == STATE_ARMED) {
+        ctx->launch_confirm_count = 0;
+        ctx->drop_confirm_count = 0;
         transition_to(ctx, STATE_IDLE);
     }
 }

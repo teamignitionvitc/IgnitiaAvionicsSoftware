@@ -1,14 +1,56 @@
-/**
- * @file nrf_radio.c
- * @brief NRF UART Radio driver implementation
- */
 
+// All includes and macros at the top
+#include <stdint.h>
+#include <stddef.h>
+#include <string.h>
+#include <stdio.h>
 #include "nrf_radio.h"
 #include "config.h"
 #include "hardware/uart.h"
 #include "hardware/gpio.h"
 #include "pico/stdlib.h"
-#include <string.h>
+#include "pico/time.h"
+
+// Forward declaration for uart_write_with_timeout (must be before any use)
+size_t uart_write_with_timeout(uart_inst_t *uart, const uint8_t *data, size_t len, uint32_t timeout_us);
+
+
+// Send a telemetry packet: header (0xAA), timestamp (uint32_t), altitude (float), velocity (float), state (uint8_t), footer (0x55), newline ('\n')
+void send_telemetry_packet(uint32_t timestamp, float altitude, float velocity, uint8_t state) {
+    uint8_t packet[1 + 4 + 4 + 4 + 1 + 1 + 1];
+    size_t idx = 0;
+    packet[idx++] = 0xAA;
+    memcpy(&packet[idx], &timestamp, 4); idx += 4;
+    memcpy(&packet[idx], &altitude, 4); idx += 4;
+    memcpy(&packet[idx], &velocity, 4); idx += 4;
+    packet[idx++] = state;
+    packet[idx++] = 0x55;
+    packet[idx++] = '\n';
+
+    size_t sent = uart_write_with_timeout(NRF_UART, packet, idx, NRF_UART_SEND_TIMEOUT_US);
+    if (sent == idx) {
+        printf("TX OK: %u bytes\r\n", (unsigned)sent);
+    } else {
+        printf("TX FAIL\r\n");
+    }
+}
+
+// Timeout for UART send (microseconds)
+// (now defined in header if not already)
+
+// Helper: Write data to UART with timeout (returns bytes sent)
+size_t uart_write_with_timeout(uart_inst_t *uart, const uint8_t *data, size_t len, uint32_t timeout_us) {
+    absolute_time_t deadline = make_timeout_time_us(timeout_us);
+    size_t sent = 0;
+    while (sent < len) {
+        if (uart_is_writable(uart)) {
+            uart_putc_raw(uart, data[sent++]);
+        } else if (absolute_time_diff_us(get_absolute_time(), deadline) <= 0) {
+            break; // Timeout
+        }
+    }
+    return sent;
+}
 
 #define PACKET_HEADER   0xAA
 #define RX_BUFFER_SIZE  64
@@ -55,8 +97,14 @@ void nrf_send_telemetry(const TelemetryPacket *pkt) {
     // Calculate checksum (exclude checksum field)
     packet.checksum = calculate_checksum((uint8_t*)&packet, sizeof(packet) - 1);
     
-    uart_write_blocking(NRF_UART, (uint8_t*)&packet, sizeof(packet));
-    tx_count++;
+    size_t sent = uart_write_with_timeout(NRF_UART, (uint8_t*)&packet, sizeof(packet), NRF_UART_SEND_TIMEOUT_US);
+    uint8_t nl = '\n';
+    size_t sent_nl = uart_write_with_timeout(NRF_UART, &nl, 1, NRF_UART_SEND_TIMEOUT_US);
+    bool ok = (sent == sizeof(packet) && sent_nl == 1);
+    if (ok) {
+        tx_count++;
+    }
+    printf("[NRF] Telemetry TX %s (%u bytes)\r\n", ok ? "OK" : "FAILED", (unsigned)(sizeof(packet)));
 }
 
 void nrf_send_gps(const GPSPacket *pkt) {
@@ -69,8 +117,14 @@ void nrf_send_gps(const GPSPacket *pkt) {
     
     packet.checksum = calculate_checksum((uint8_t*)&packet, sizeof(packet) - 1);
     
-    uart_write_blocking(NRF_UART, (uint8_t*)&packet, sizeof(packet));
-    tx_count++;
+    size_t sent = uart_write_with_timeout(NRF_UART, (uint8_t*)&packet, sizeof(packet), NRF_UART_SEND_TIMEOUT_US);
+    uint8_t nl = '\n';
+    size_t sent_nl = uart_write_with_timeout(NRF_UART, &nl, 1, NRF_UART_SEND_TIMEOUT_US);
+    bool ok = (sent == sizeof(packet) && sent_nl == 1);
+    if (ok) {
+        tx_count++;
+    }
+    printf("[NRF] GPS TX %s (%u bytes)\r\n", ok ? "OK" : "FAILED", (unsigned)(sizeof(packet)));
 }
 
 void nrf_send_status(const char *message) {
@@ -86,13 +140,23 @@ void nrf_send_status(const char *message) {
     
     packet.checksum = calculate_checksum((uint8_t*)&packet, sizeof(packet) - 1);
     
-    uart_write_blocking(NRF_UART, (uint8_t*)&packet, sizeof(packet));
-    tx_count++;
+    size_t sent = uart_write_with_timeout(NRF_UART, (uint8_t*)&packet, sizeof(packet), NRF_UART_SEND_TIMEOUT_US);
+    uint8_t nl = '\n';
+    size_t sent_nl = uart_write_with_timeout(NRF_UART, &nl, 1, NRF_UART_SEND_TIMEOUT_US);
+    bool ok = (sent == sizeof(packet) && sent_nl == 1);
+    if (ok) {
+        tx_count++;
+    }
+    printf("[NRF] Status TX %s (%u bytes)\r\n", ok ? "OK" : "FAILED", (unsigned)(sizeof(packet)));
 }
 
 void nrf_send_raw(const uint8_t *data, size_t len) {
     if (!data || len == 0) return;
-    uart_write_blocking(NRF_UART, data, len);
+    size_t sent = uart_write_with_timeout(NRF_UART, data, len, NRF_UART_SEND_TIMEOUT_US);
+    uint8_t nl = '\n';
+    size_t sent_nl = uart_write_with_timeout(NRF_UART, &nl, 1, NRF_UART_SEND_TIMEOUT_US);
+    bool ok = (sent == len && sent_nl == 1);
+    printf("[NRF] Raw TX %s (%u bytes)\r\n", ok ? "OK" : "FAILED", (unsigned)len);
 }
 
 bool nrf_receive(uint8_t *buffer, size_t max_len, size_t *received) {

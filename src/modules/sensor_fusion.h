@@ -8,13 +8,19 @@
 
 #include "mpu6050.h"
 #include "bme280.h"
+#include "filters.h"
 #include <stdbool.h>
+#include <stdint.h>
 
 typedef struct {
     float altitude;
     float velocity;
     float altitude_raw;
     float velocity_raw;
+    float altitude_reference;
+    float altitude_ref_accum;
+    uint16_t altitude_ref_samples;
+    bool altitude_zeroed;
     float roll, pitch, yaw;
     uint32_t last_update;
 } FusionState;

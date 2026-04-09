@@ -55,22 +55,22 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/MinGW/bin/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cc.com"
       - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cc.exe"
@@ -513,27 +513,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang"
-      - "C:/Program Files/Git/cmd/cc.com"
-      - "C:/Program Files/Git/cmd/cc.exe"
-      - "C:/Program Files/Git/cmd/cc"
-      - "C:/Program Files/Git/cmd/gcc.com"
-      - "C:/Program Files/Git/cmd/gcc.exe"
-      - "C:/Program Files/Git/cmd/gcc"
-      - "C:/Program Files/Git/cmd/cl.com"
-      - "C:/Program Files/Git/cmd/cl.exe"
-      - "C:/Program Files/Git/cmd/cl"
-      - "C:/Program Files/Git/cmd/bcc.com"
-      - "C:/Program Files/Git/cmd/bcc.exe"
-      - "C:/Program Files/Git/cmd/bcc"
-      - "C:/Program Files/Git/cmd/xlc.com"
-      - "C:/Program Files/Git/cmd/xlc.exe"
-      - "C:/Program Files/Git/cmd/xlc"
-      - "C:/Program Files/Git/cmd/icx.com"
-      - "C:/Program Files/Git/cmd/icx.exe"
-      - "C:/Program Files/Git/cmd/icx"
-      - "C:/Program Files/Git/cmd/clang.com"
-      - "C:/Program Files/Git/cmd/clang.exe"
-      - "C:/Program Files/Git/cmd/clang"
       - "C:/Program Files/nodejs/cc.com"
       - "C:/Program Files/nodejs/cc.exe"
       - "C:/Program Files/nodejs/cc"
@@ -639,6 +618,69 @@ events:
       - "C:/Program Files/usbipd-win/clang.com"
       - "C:/Program Files/usbipd-win/clang.exe"
       - "C:/Program Files/usbipd-win/clang"
+      - "C:/Program Files/CMake/bin/cc.com"
+      - "C:/Program Files/CMake/bin/cc.exe"
+      - "C:/Program Files/CMake/bin/cc"
+      - "C:/Program Files/CMake/bin/gcc.com"
+      - "C:/Program Files/CMake/bin/gcc.exe"
+      - "C:/Program Files/CMake/bin/gcc"
+      - "C:/Program Files/CMake/bin/cl.com"
+      - "C:/Program Files/CMake/bin/cl.exe"
+      - "C:/Program Files/CMake/bin/cl"
+      - "C:/Program Files/CMake/bin/bcc.com"
+      - "C:/Program Files/CMake/bin/bcc.exe"
+      - "C:/Program Files/CMake/bin/bcc"
+      - "C:/Program Files/CMake/bin/xlc.com"
+      - "C:/Program Files/CMake/bin/xlc.exe"
+      - "C:/Program Files/CMake/bin/xlc"
+      - "C:/Program Files/CMake/bin/icx.com"
+      - "C:/Program Files/CMake/bin/icx.exe"
+      - "C:/Program Files/CMake/bin/icx"
+      - "C:/Program Files/CMake/bin/clang.com"
+      - "C:/Program Files/CMake/bin/clang.exe"
+      - "C:/Program Files/CMake/bin/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/cc.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/cc.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/cc"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/cl.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/cl.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/cl"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/bcc.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/bcc.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/bcc"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/xlc.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/xlc.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/xlc"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/icx.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/icx.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/icx"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/clang.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/clang.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/clang"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/cc.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/cc.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/cc"
@@ -735,25 +777,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -807,25 +847,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "message-v1"
     backtrace:
@@ -846,7 +884,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/4.3.1/CompilerIdC/a.exe
+        E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/4.3.1/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -890,21 +928,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/ar.com"
     found: "C:/MinGW/bin/ar.exe"
@@ -936,25 +974,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -997,21 +1033,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/ranlib.com"
     found: "C:/MinGW/bin/ranlib.exe"
@@ -1043,25 +1079,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1104,21 +1138,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/strip.com"
     found: "C:/MinGW/bin/strip.exe"
@@ -1150,25 +1184,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1211,21 +1243,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/ld.com"
     found: "C:/MinGW/bin/ld.exe"
@@ -1257,25 +1289,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1318,21 +1348,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/nm.com"
     found: "C:/MinGW/bin/nm.exe"
@@ -1364,25 +1394,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1425,21 +1453,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/objdump.com"
     found: "C:/MinGW/bin/objdump.exe"
@@ -1471,25 +1499,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1532,21 +1558,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/objcopy.com"
     found: "C:/MinGW/bin/objcopy.exe"
@@ -1578,25 +1604,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1639,21 +1663,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/readelf.com"
     found: "C:/MinGW/bin/readelf.exe"
@@ -1685,25 +1709,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1746,21 +1768,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/dlltool.com"
     found: "C:/MinGW/bin/dlltool.exe"
@@ -1792,25 +1814,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1853,21 +1873,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/addr2line.com"
     found: "C:/MinGW/bin/addr2line.exe"
@@ -1899,25 +1919,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -1960,21 +1978,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/tapi.com"
       - "C:/MinGW/bin/tapi.exe"
@@ -2042,9 +2060,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi"
-      - "C:/Program Files/Git/cmd/tapi.com"
-      - "C:/Program Files/Git/cmd/tapi.exe"
-      - "C:/Program Files/Git/cmd/tapi"
       - "C:/Program Files/nodejs/tapi.com"
       - "C:/Program Files/nodejs/tapi.exe"
       - "C:/Program Files/nodejs/tapi"
@@ -2060,6 +2075,15 @@ events:
       - "C:/Program Files/usbipd-win/tapi.com"
       - "C:/Program Files/usbipd-win/tapi.exe"
       - "C:/Program Files/usbipd-win/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/tapi.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/tapi.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/tapi"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/tapi.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/tapi.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/tapi"
@@ -2075,18 +2099,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
-      - "C:/Program Files/CMake/bin/tapi.com"
-      - "C:/Program Files/CMake/bin/tapi.exe"
-      - "C:/Program Files/CMake/bin/tapi"
-      - "C:/Program Files/Ninja/tapi.com"
-      - "C:/Program Files/Ninja/tapi.exe"
-      - "C:/Program Files/Ninja/tapi"
-      - "C:/ninja/tapi.com"
-      - "C:/ninja/tapi.exe"
-      - "C:/ninja/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -2116,25 +2134,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -2180,21 +2196,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ar-6.3.com"
       - "C:/MinGW/bin/gcc-ar-6.3.exe"
@@ -2262,9 +2278,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.3.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.3.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.3"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.3.com"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.3.exe"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.3"
       - "C:/Program Files/nodejs/gcc-ar-6.3.com"
       - "C:/Program Files/nodejs/gcc-ar-6.3.exe"
       - "C:/Program Files/nodejs/gcc-ar-6.3"
@@ -2280,6 +2293,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ar-6.3.com"
       - "C:/Program Files/usbipd-win/gcc-ar-6.3.exe"
       - "C:/Program Files/usbipd-win/gcc-ar-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.3.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.3"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3"
@@ -2295,18 +2317,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.3"
-      - "C:/Program Files/Ninja/gcc-ar-6.3.com"
-      - "C:/Program Files/Ninja/gcc-ar-6.3.exe"
-      - "C:/Program Files/Ninja/gcc-ar-6.3"
-      - "C:/ninja/gcc-ar-6.3.com"
-      - "C:/ninja/gcc-ar-6.3.exe"
-      - "C:/ninja/gcc-ar-6.3"
       - "C:/MinGW/bin/gcc-ar-6.com"
       - "C:/MinGW/bin/gcc-ar-6.exe"
       - "C:/MinGW/bin/gcc-ar-6"
@@ -2373,9 +2389,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.com"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ar-6"
       - "C:/Program Files/nodejs/gcc-ar-6.com"
       - "C:/Program Files/nodejs/gcc-ar-6.exe"
       - "C:/Program Files/nodejs/gcc-ar-6"
@@ -2391,6 +2404,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ar-6.com"
       - "C:/Program Files/usbipd-win/gcc-ar-6.exe"
       - "C:/Program Files/usbipd-win/gcc-ar-6"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6"
@@ -2406,18 +2428,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.com"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar-6"
-      - "C:/Program Files/Ninja/gcc-ar-6.com"
-      - "C:/Program Files/Ninja/gcc-ar-6.exe"
-      - "C:/Program Files/Ninja/gcc-ar-6"
-      - "C:/ninja/gcc-ar-6.com"
-      - "C:/ninja/gcc-ar-6.exe"
-      - "C:/ninja/gcc-ar-6"
       - "C:/MinGW/bin/gcc-ar6.com"
       - "C:/MinGW/bin/gcc-ar6.exe"
       - "C:/MinGW/bin/gcc-ar6"
@@ -2484,9 +2500,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar6"
-      - "C:/Program Files/Git/cmd/gcc-ar6.com"
-      - "C:/Program Files/Git/cmd/gcc-ar6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ar6"
       - "C:/Program Files/nodejs/gcc-ar6.com"
       - "C:/Program Files/nodejs/gcc-ar6.exe"
       - "C:/Program Files/nodejs/gcc-ar6"
@@ -2502,6 +2515,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ar6.com"
       - "C:/Program Files/usbipd-win/gcc-ar6.exe"
       - "C:/Program Files/usbipd-win/gcc-ar6"
+      - "C:/Program Files/CMake/bin/gcc-ar6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar6"
+      - "C:/Program Files/Git/cmd/gcc-ar6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6"
@@ -2517,18 +2539,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6"
-      - "C:/Program Files/CMake/bin/gcc-ar6.com"
-      - "C:/Program Files/CMake/bin/gcc-ar6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar6"
-      - "C:/Program Files/Ninja/gcc-ar6.com"
-      - "C:/Program Files/Ninja/gcc-ar6.exe"
-      - "C:/Program Files/Ninja/gcc-ar6"
-      - "C:/ninja/gcc-ar6.com"
-      - "C:/ninja/gcc-ar6.exe"
-      - "C:/ninja/gcc-ar6"
       - "C:/MinGW/bin/gcc-ar.com"
     found: "C:/MinGW/bin/gcc-ar.exe"
     search_context:
@@ -2559,25 +2575,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -2623,21 +2637,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ranlib-6.3.com"
       - "C:/MinGW/bin/gcc-ranlib-6.3.exe"
@@ -2705,9 +2719,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.3.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.3.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.3"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.com"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.exe"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3"
       - "C:/Program Files/nodejs/gcc-ranlib-6.3.com"
       - "C:/Program Files/nodejs/gcc-ranlib-6.3.exe"
       - "C:/Program Files/nodejs/gcc-ranlib-6.3"
@@ -2723,6 +2734,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.3.com"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.3.exe"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.3"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3"
@@ -2738,18 +2758,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.3.com"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.3.exe"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.3"
-      - "C:/ninja/gcc-ranlib-6.3.com"
-      - "C:/ninja/gcc-ranlib-6.3.exe"
-      - "C:/ninja/gcc-ranlib-6.3"
       - "C:/MinGW/bin/gcc-ranlib-6.com"
       - "C:/MinGW/bin/gcc-ranlib-6.exe"
       - "C:/MinGW/bin/gcc-ranlib-6"
@@ -2816,9 +2830,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.com"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6"
       - "C:/Program Files/nodejs/gcc-ranlib-6.com"
       - "C:/Program Files/nodejs/gcc-ranlib-6.exe"
       - "C:/Program Files/nodejs/gcc-ranlib-6"
@@ -2834,6 +2845,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.com"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.exe"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6"
@@ -2849,18 +2869,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.com"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.exe"
-      - "C:/Program Files/Ninja/gcc-ranlib-6"
-      - "C:/ninja/gcc-ranlib-6.com"
-      - "C:/ninja/gcc-ranlib-6.exe"
-      - "C:/ninja/gcc-ranlib-6"
       - "C:/MinGW/bin/gcc-ranlib6.com"
       - "C:/MinGW/bin/gcc-ranlib6.exe"
       - "C:/MinGW/bin/gcc-ranlib6"
@@ -2927,9 +2941,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib6"
-      - "C:/Program Files/Git/cmd/gcc-ranlib6.com"
-      - "C:/Program Files/Git/cmd/gcc-ranlib6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ranlib6"
       - "C:/Program Files/nodejs/gcc-ranlib6.com"
       - "C:/Program Files/nodejs/gcc-ranlib6.exe"
       - "C:/Program Files/nodejs/gcc-ranlib6"
@@ -2945,6 +2956,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ranlib6.com"
       - "C:/Program Files/usbipd-win/gcc-ranlib6.exe"
       - "C:/Program Files/usbipd-win/gcc-ranlib6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6"
@@ -2960,18 +2980,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6"
-      - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib6"
-      - "C:/Program Files/Ninja/gcc-ranlib6.com"
-      - "C:/Program Files/Ninja/gcc-ranlib6.exe"
-      - "C:/Program Files/Ninja/gcc-ranlib6"
-      - "C:/ninja/gcc-ranlib6.com"
-      - "C:/ninja/gcc-ranlib6.exe"
-      - "C:/ninja/gcc-ranlib6"
       - "C:/MinGW/bin/gcc-ranlib.com"
     found: "C:/MinGW/bin/gcc-ranlib.exe"
     search_context:
@@ -3002,25 +3016,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -3078,25 +3090,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -3150,25 +3160,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "message-v1"
     backtrace:
@@ -3189,7 +3197,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
+        E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/4.3.1/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -3236,21 +3244,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ar-6.3.com"
       - "C:/MinGW/bin/gcc-ar-6.3.exe"
@@ -3318,9 +3326,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.3.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.3.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.3"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.3.com"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.3.exe"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.3"
       - "C:/Program Files/nodejs/gcc-ar-6.3.com"
       - "C:/Program Files/nodejs/gcc-ar-6.3.exe"
       - "C:/Program Files/nodejs/gcc-ar-6.3"
@@ -3336,6 +3341,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ar-6.3.com"
       - "C:/Program Files/usbipd-win/gcc-ar-6.3.exe"
       - "C:/Program Files/usbipd-win/gcc-ar-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.3.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.3"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3"
@@ -3351,18 +3365,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.3"
-      - "C:/Program Files/Ninja/gcc-ar-6.3.com"
-      - "C:/Program Files/Ninja/gcc-ar-6.3.exe"
-      - "C:/Program Files/Ninja/gcc-ar-6.3"
-      - "C:/ninja/gcc-ar-6.3.com"
-      - "C:/ninja/gcc-ar-6.3.exe"
-      - "C:/ninja/gcc-ar-6.3"
       - "C:/MinGW/bin/gcc-ar-6.com"
       - "C:/MinGW/bin/gcc-ar-6.exe"
       - "C:/MinGW/bin/gcc-ar-6"
@@ -3429,9 +3437,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar-6"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.com"
-      - "C:/Program Files/Git/cmd/gcc-ar-6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ar-6"
       - "C:/Program Files/nodejs/gcc-ar-6.com"
       - "C:/Program Files/nodejs/gcc-ar-6.exe"
       - "C:/Program Files/nodejs/gcc-ar-6"
@@ -3447,6 +3452,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ar-6.com"
       - "C:/Program Files/usbipd-win/gcc-ar-6.exe"
       - "C:/Program Files/usbipd-win/gcc-ar-6"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar-6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6"
@@ -3462,18 +3476,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.com"
-      - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar-6"
-      - "C:/Program Files/Ninja/gcc-ar-6.com"
-      - "C:/Program Files/Ninja/gcc-ar-6.exe"
-      - "C:/Program Files/Ninja/gcc-ar-6"
-      - "C:/ninja/gcc-ar-6.com"
-      - "C:/ninja/gcc-ar-6.exe"
-      - "C:/ninja/gcc-ar-6"
       - "C:/MinGW/bin/gcc-ar6.com"
       - "C:/MinGW/bin/gcc-ar6.exe"
       - "C:/MinGW/bin/gcc-ar6"
@@ -3540,9 +3548,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ar6"
-      - "C:/Program Files/Git/cmd/gcc-ar6.com"
-      - "C:/Program Files/Git/cmd/gcc-ar6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ar6"
       - "C:/Program Files/nodejs/gcc-ar6.com"
       - "C:/Program Files/nodejs/gcc-ar6.exe"
       - "C:/Program Files/nodejs/gcc-ar6"
@@ -3558,6 +3563,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ar6.com"
       - "C:/Program Files/usbipd-win/gcc-ar6.exe"
       - "C:/Program Files/usbipd-win/gcc-ar6"
+      - "C:/Program Files/CMake/bin/gcc-ar6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar6"
+      - "C:/Program Files/Git/cmd/gcc-ar6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ar6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6"
@@ -3573,18 +3587,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6"
-      - "C:/Program Files/CMake/bin/gcc-ar6.com"
-      - "C:/Program Files/CMake/bin/gcc-ar6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar6"
-      - "C:/Program Files/Ninja/gcc-ar6.com"
-      - "C:/Program Files/Ninja/gcc-ar6.exe"
-      - "C:/Program Files/Ninja/gcc-ar6"
-      - "C:/ninja/gcc-ar6.com"
-      - "C:/ninja/gcc-ar6.exe"
-      - "C:/ninja/gcc-ar6"
       - "C:/MinGW/bin/gcc-ar.com"
     found: "C:/MinGW/bin/gcc-ar.exe"
     search_context:
@@ -3615,25 +3623,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -3679,21 +3685,21 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ranlib-6.3.com"
       - "C:/MinGW/bin/gcc-ranlib-6.3.exe"
@@ -3761,9 +3767,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.3.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.3.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.3"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.com"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.exe"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3"
       - "C:/Program Files/nodejs/gcc-ranlib-6.3.com"
       - "C:/Program Files/nodejs/gcc-ranlib-6.3.exe"
       - "C:/Program Files/nodejs/gcc-ranlib-6.3"
@@ -3779,6 +3782,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.3.com"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.3.exe"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.3"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3"
@@ -3794,18 +3806,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.3.com"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.3.exe"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.3"
-      - "C:/ninja/gcc-ranlib-6.3.com"
-      - "C:/ninja/gcc-ranlib-6.3.exe"
-      - "C:/ninja/gcc-ranlib-6.3"
       - "C:/MinGW/bin/gcc-ranlib-6.com"
       - "C:/MinGW/bin/gcc-ranlib-6.exe"
       - "C:/MinGW/bin/gcc-ranlib-6"
@@ -3872,9 +3878,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib-6"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.com"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ranlib-6"
       - "C:/Program Files/nodejs/gcc-ranlib-6.com"
       - "C:/Program Files/nodejs/gcc-ranlib-6.exe"
       - "C:/Program Files/nodejs/gcc-ranlib-6"
@@ -3890,6 +3893,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.com"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6.exe"
       - "C:/Program Files/usbipd-win/gcc-ranlib-6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib-6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6"
@@ -3905,18 +3917,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-6"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.com"
-      - "C:/Program Files/Ninja/gcc-ranlib-6.exe"
-      - "C:/Program Files/Ninja/gcc-ranlib-6"
-      - "C:/ninja/gcc-ranlib-6.com"
-      - "C:/ninja/gcc-ranlib-6.exe"
-      - "C:/ninja/gcc-ranlib-6"
       - "C:/MinGW/bin/gcc-ranlib6.com"
       - "C:/MinGW/bin/gcc-ranlib6.exe"
       - "C:/MinGW/bin/gcc-ranlib6"
@@ -3983,9 +3989,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib6.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib6.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/gcc-ranlib6"
-      - "C:/Program Files/Git/cmd/gcc-ranlib6.com"
-      - "C:/Program Files/Git/cmd/gcc-ranlib6.exe"
-      - "C:/Program Files/Git/cmd/gcc-ranlib6"
       - "C:/Program Files/nodejs/gcc-ranlib6.com"
       - "C:/Program Files/nodejs/gcc-ranlib6.exe"
       - "C:/Program Files/nodejs/gcc-ranlib6"
@@ -4001,6 +4004,15 @@ events:
       - "C:/Program Files/usbipd-win/gcc-ranlib6.com"
       - "C:/Program Files/usbipd-win/gcc-ranlib6.exe"
       - "C:/Program Files/usbipd-win/gcc-ranlib6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib6.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib6.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/gcc-ranlib6"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6"
@@ -4016,18 +4028,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.com"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.exe"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.com"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6"
-      - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib6"
-      - "C:/Program Files/Ninja/gcc-ranlib6.com"
-      - "C:/Program Files/Ninja/gcc-ranlib6.exe"
-      - "C:/Program Files/Ninja/gcc-ranlib6"
-      - "C:/ninja/gcc-ranlib6.com"
-      - "C:/ninja/gcc-ranlib6.exe"
-      - "C:/ninja/gcc-ranlib6"
       - "C:/MinGW/bin/gcc-ranlib.com"
     found: "C:/MinGW/bin/gcc-ranlib.exe"
     search_context:
@@ -4058,25 +4064,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
   -
     kind: "find-v1"
     backtrace:
@@ -4121,22 +4125,22 @@ events:
       - "C:/Program Files/HP/OMEN-Broadcast/Common/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/MongoDB/Server/8.0/bin/"
       - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/"
       - "C:/Program Files (x86)/NSIS/Bin/"
       - "C:/Program Files/usbipd-win/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WindowsApps/"
       - "C:/MinGW/bin/"
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
       - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Ninja/"
-      - "C:/ninja/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -4213,9 +4217,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres"
-      - "C:/Program Files/Git/cmd/windres.com"
-      - "C:/Program Files/Git/cmd/windres.exe"
-      - "C:/Program Files/Git/cmd/windres"
       - "C:/Program Files/nodejs/windres.com"
       - "C:/Program Files/nodejs/windres.exe"
       - "C:/Program Files/nodejs/windres"
@@ -4231,6 +4232,15 @@ events:
       - "C:/Program Files/usbipd-win/windres.com"
       - "C:/Program Files/usbipd-win/windres.exe"
       - "C:/Program Files/usbipd-win/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/windres.com"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/windres.exe"
+      - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/windres"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/windres.com"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/windres.exe"
       - "C:/Users/VICTUS/AppData/Local/Programs/Python/Python312/Scripts/windres"
@@ -4270,25 +4280,23 @@ events:
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
         - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\"
         - "C:\\Program Files (x86)\\NSIS\\Bin"
         - "C:\\Program Files\\usbipd-win\\"
         - "C:\\Program Files\\usbipd-win\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\MinGW\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
         - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\Ninja"
-        - "C:\\ninja"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/elf2uf2"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -4304,8 +4312,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-d02xcs"
-      binary: "E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-d02xcs"
+      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp"
+      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -4315,18 +4323,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-d02xcs'
+        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp'
         
-        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_37ac7
-        [1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_a1283
+        [1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4cUARV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s
         GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -4347,13 +4355,13 @@ events:
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4cUARV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28\x0d
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/\x0d
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj -o cmTC_37ac7.exe -Wl,--out-implib,libcmTC_37ac7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -o cmTC_a1283.exe -Wl,--out-implib,libcmTC_a1283.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -4363,12 +4371,12 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37ac7.exe' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccWeSHh2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_37ac7.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_37ac7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1283.exe' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
         collect2 version 6.3.0
-        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccWeSHh2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_37ac7.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_37ac7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.28\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37ac7.exe' '-mtune=generic' '-march=i586'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1283.exe' '-mtune=generic' '-march=i586'\x0d
         
       exitCode: 0
   -
@@ -4401,18 +4409,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-d02xcs']
+        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_37ac7]
-        ignore line: [[1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_a1283]
+        ignore line: [[1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4cUARV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s]
         ignore line: [GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -4433,8 +4441,8 @@ events:
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4cUARV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28\x0d]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -4443,8 +4451,8 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj -o cmTC_37ac7.exe -Wl --out-implib libcmTC_37ac7.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -o cmTC_a1283.exe -Wl --out-implib libcmTC_a1283.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -4459,13 +4467,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37ac7.exe' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccWeSHh2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_37ac7.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_37ac7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1283.exe' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccWeSHh2.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -4484,7 +4492,7 @@ events:
           arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_37ac7.exe] ==> ignore
+          arg [cmTC_a1283.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -4492,9 +4500,9 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_37ac7.dll.a] ==> ignore
+          arg [libcmTC_a1283.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4517,7 +4525,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
         ignore line: [collect2 version 6.3.0]
-        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccWeSHh2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_37ac7.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_37ac7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_37ac7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
         linker tool for 'C': c:/mingw/mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -4555,8 +4563,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0fazac"
-      binary: "E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0fazac"
+      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig"
+      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -4567,18 +4575,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0fazac'
+        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig'
         
-        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_daab9
-        [1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_2066c
+        [1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccG52gpk.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s
         GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
@@ -4607,13 +4615,13 @@ events:
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: af09a87986453bf79da3565f33c7648f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccG52gpk.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_daab9.exe -Wl,--out-implib,libcmTC_daab9.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2066c.exe -Wl,--out-implib,libcmTC_2066c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -4623,12 +4631,12 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daab9.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4HTR9t.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_daab9.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_daab9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2066c.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
         collect2 version 6.3.0
-        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4HTR9t.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_daab9.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_daab9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.28\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daab9.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2066c.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'\x0d
         
       exitCode: 0
   -
@@ -4667,18 +4675,18 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/IGNITION/Ignitia_Avionics/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0fazac']
+        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_daab9]
-        ignore line: [[1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_2066c]
+        ignore line: [[1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccG52gpk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s]
         ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
@@ -4707,8 +4715,8 @@ events:
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccG52gpk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -4717,8 +4725,8 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_daab9.exe -Wl --out-implib libcmTC_daab9.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2066c.exe -Wl --out-implib libcmTC_2066c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -4733,13 +4741,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daab9.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4HTR9t.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_daab9.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_daab9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2066c.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4HTR9t.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -4762,7 +4770,7 @@ events:
           arg [-u] ==> ignore
           arg [___deregister_frame_info] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_daab9.exe] ==> ignore
+          arg [cmTC_2066c.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -4770,9 +4778,9 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_daab9.dll.a] ==> ignore
+          arg [libcmTC_2066c.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4796,7 +4804,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
         ignore line: [collect2 version 6.3.0]
-        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4HTR9t.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_daab9.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_daab9.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_daab9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
         linker tool for 'CXX': c:/mingw/mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
