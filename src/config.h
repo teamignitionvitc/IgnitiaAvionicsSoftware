@@ -26,26 +26,40 @@
 #define I2C_SCL_PIN         3
 #define I2C_BAUDRATE        100000
 
-// UART1 - GPS (NEO-M8M)
+// UART1 - GPS (NEO-M8M-0-10)
 #define GPS_UART            uart1
 #define GPS_TX_PIN          4
 #define GPS_RX_PIN          5
 #define GPS_BAUDRATE        9600
+#define GPS_LOCK_TIMEOUT_MS 6000        // Max wait for GPS fix at startup (6s)
+#define GPS_NAV_RATE_HZ     5           // Navigation solution rate (Hz)
 
 // UART0 - NRF Telemetry Radio
 #define NRF_UART            uart0
-#define NRF_TX_PIN          1
-#define NRF_RX_PIN          0
+#define NRF_TX_PIN          0
+#define NRF_RX_PIN          1
 #define NRF_BAUDRATE        115200
 
-// PWM - Servo
-#define SERVO_PIN           14
-#define SERVO_PWM_FREQ      50
+// UART TX timeout (ms)
+#define UART_TX_TIMEOUT_MS  500
 
-// Status LED
+// PWM - Servos: see SERVO CONFIGURATION section below
+
+// Status LEDs (external)
 #define STATUS_LED_PIN      7
 #define CAL_LED_PIN         6
+
+// WS2812B RGB LED (RP2040-Zero built-in)
+#define WS2812_PIN          16
+
+// Passive Buzzer (PWM-driven)
 #define BUZZER_PIN          13
+#define BUZZER_FREQ_INIT    2000        // Hz — startup beep
+#define BUZZER_FREQ_LANDED  1500        // Hz — landing tone
+#define BUZZER_BEEP_MS      200         // ms — beep duration
+
+// Digital sensor input (GP12 — reads 0 or 1)
+#define SENSOR_GP12_PIN     12
 
 // =============================================================================
 // I2C ADDRESSES
@@ -54,46 +68,51 @@
 #define BME280_ADDR         0x76
 
 // =============================================================================
-// SERVO CONFIGURATION
+// SERVO CONFIGURATION (MG90S position servo — angle-based, holds position)
 // =============================================================================
+#define SERVO_PIN           14
+#define SERVO_PIN_2         15          // Second servo
+#define SERVO_PWM_FREQ      50
 #define SERVO_MIN_PULSE_US  500
 #define SERVO_MAX_PULSE_US  2500
-#define SERVO_CLOSED_ANGLE  0
-#define SERVO_OPEN_ANGLE    90
+#define SERVO_NEUTRAL_US    1500
+#define SERVO_CLOSED_ANGLE  270           // Locked position (init)
+#define SERVO_OPEN_ANGLE    180        // Released position (deploy at apogee)
 
 // =============================================================================
-// FLIGHT PARAMETERS (DRONE DROP MODE)
+// SD CARD CONFIGURATION (SPI1 — data logging on Core 1)
 // =============================================================================
+#define SD_SPI_PORT         spi1
+#define SD_SPI_BAUDRATE     1000000     // 1 MHz for init
+#define SD_SPI_FAST_BAUD    10000000    // 10 MHz for data transfer
+#define SD_PIN_MISO         8
+#define SD_PIN_CS           9
+#define SD_PIN_SCK          10
+#define SD_PIN_MOSI         11
+#define SD_LOG_RATE_HZ      50          // SD card logging rate (Hz) — independent of UART TX
+#define SD_LOG_INTERVAL_MS  (1000 / SD_LOG_RATE_HZ)  // = 20ms
+#define SD_LOG_FLUSH_INTERVAL_MS 1000   // Flush write buffer every 1s
 
-// Drop detection (drone releases cansat)
-// In freefall, accelerometer reads near 0g (gravity is not sensed during freefall)
-// accel_magnitude is in g's (1g = 9.81 m/s²)
-#define DROP_ACCEL_THRESHOLD        0.18f       // g - freefall detection (<0.18g = true freefall, more robust)
-#define DROP_VELOCITY_THRESHOLD     -0.3f       // m/s - rapid descent as backup
-#define DROP_CONFIRMATION_COUNT     7           // Consecutive readings to confirm drop (more robust)
-#define DROP_ALTITUDE_CHANGE        0.3f        // m - altitude drop to confirm (unused)
+// =============================================================================
+// FLIGHT PARAMETERS — ALTITUDE-ONLY STATE TRANSITIONS
+// =============================================================================
+// States: INIT -> ARMED -> APOGEE -> DEPLOYED -> LANDED
+// After init/calibration: auto-arm.
+// Altitude peak + drop: apogee detected.
+// Apogee: immediately deploy parachute.
+// Back on ground: landed.
 
-// Auto-arm: detect drone ascending with cansat attached
-#define LAUNCH_ALTITUDE_RISE        1.0f        // m above ground to auto-arm
-#define LAUNCH_VELOCITY_THRESHOLD   0.2f        // m/s upward velocity
-#define LAUNCH_CONFIRMATION_COUNT   5          // Consecutive samples to confirm ascent
+// ARMED -> APOGEE: altitude drops from max_altitude by this amount
+#define APOGEE_DROP_THRESHOLD       0.5f        // m below max_altitude to detect apogee
+#define APOGEE_CONFIRM_COUNT        5           // Consecutive readings to confirm
 
-// Manual arm is also available via 'a' command over USB
+// Deployment (parachute release at apogee)
+#define DEPLOY_DELAY_MS             100         // ms after apogee detection before deploy
+#define DEPLOYMENT_SAFETY_TIME      10000       // ms - force deploy 10s after apogee detected
 
-// Deployment (parachute release during descent)
-#define DEPLOY_DELAY_MS             150         // ms after drop detection before deploy (faster response)
-#define DEPLOY_ALTITUDE_MIN         10.0f       // m - minimum altitude for deployment
-#define DEPLOY_VELOCITY_THRESHOLD   -0.3f       // m/s - must be descending
-
-// Landing detection
-#define LANDING_VELOCITY_THRESHOLD  0.3f        // m/s - near stationary
-#define LANDING_ALTITUDE_THRESHOLD  5.0f        // m AGL - close to ground
-#define LANDING_CONFIRMATION_TIME   3000        // ms - sustained for this long
-
-// Safety overrides
-#define DEPLOYMENT_SAFETY_ALT       350.0f      // m - force deploy if below this while armed
-#define DEPLOYMENT_SAFETY_TIME      10000       // ms - force deploy 10s after drop detected
-#define ARM_ALTITUDE_MIN            20.0f       // m - minimum altitude to detect freefall (avoid false triggers)
+// DEPLOYED -> LANDED: altitude close to baseline for sustained period
+#define LANDING_ALT_THRESHOLD       2.0f        // m above baseline = considered landed
+#define LANDING_CONFIRM_TIME_MS     3000        // ms - sustained for this long
 
 // =============================================================================
 // SENSOR CONFIGURATION
@@ -140,27 +159,28 @@
 #define MAIN_LOOP_INTERVAL_MS       10
 #define SENSOR_READ_INTERVAL_MS     10
 #define GPS_READ_INTERVAL_MS        200
-#define TELEMETRY_INTERVAL_MS       100
+#define UART_TX_RATE_HZ             1           // UART telemetry transmission rate (Hz)
+#define TELEMETRY_INTERVAL_MS       (1000 / UART_TX_RATE_HZ)
 
 // =============================================================================
 // FILTER PARAMETERS
 // =============================================================================
-#define ALTITUDE_FILTER_ALPHA       0.1f
+#define ALTITUDE_FILTER_ALPHA       0.3f
 #define VELOCITY_FILTER_ALPHA       0.2f
 #define COMPLEMENTARY_FILTER_ALPHA  0.98f
-#define ALTITUDE_OUTLIER_REJECT_M   6.0f        // Reject abrupt baro spikes per sample
-#define VELOCITY_CLAMP_MPS          35.0f       // Clamp fused vertical velocity
-#define ALTITUDE_ZERO_CAL_SAMPLES   30          // Startup samples for altitude zero reference
+#define ALTITUDE_OUTLIER_REJECT_M   6.0f
+#define VELOCITY_CLAMP_MPS          35.0f
+#define ALTITUDE_ZERO_CAL_SAMPLES   30
 #define ALTITUDE_KALMAN_Q           0.05f
 #define ALTITUDE_KALMAN_R           10.0f
 #define VELOCITY_KALMAN_Q           0.1f
 #define VELOCITY_KALMAN_R           5.0f
 #define VELOCITY_DEADBAND_MPS       0.05f
-#define BARO_IDLE_REZERO_RATE       0.003f      // Slow auto-zero while stationary
-#define BARO_IDLE_VEL_THRESHOLD     0.12f       // m/s for stationary drift correction
-#define BARO_IDLE_ACCEL_TOL_G       0.08f       // |accel_mag-1g| tolerance for stationary detect
-#define BASELINE_SETTLE_TIME_MS     5000        // Lock launch baseline after startup settle
-#define BASELINE_TRACK_ALPHA        0.01f       // Slow baseline tracking before lock
+#define BARO_IDLE_REZERO_RATE       0.003f
+#define BARO_IDLE_VEL_THRESHOLD     0.12f
+#define BARO_IDLE_ACCEL_TOL_G       0.08f
+#define BASELINE_SETTLE_TIME_MS     3000
+#define BASELINE_TRACK_ALPHA        0.01f
 
 // =============================================================================
 // DEBUG OPTIONS
@@ -170,33 +190,31 @@
 #define DEBUG_RAW_SENSORS           0
 
 // =============================================================================
-// FLIGHT STATES (DRONE DROP MODE)
+// FLIGHT STATES
 // =============================================================================
 typedef enum {
-    STATE_INIT = 0,         // System initialization
-    STATE_IDLE,             // On ground, waiting
-    STATE_ARMED,            // Attached to drone, waiting for drop
-    STATE_FREEFALL,         // Dropped, in freefall
+    STATE_INIT = 0,         // System initialization & calibration
+    STATE_ARMED,            // Ready for flight (auto after init)
+    STATE_APOGEE,           // Peak altitude detected, deploying
     STATE_DEPLOYED,         // Parachute deployed, descending
     STATE_LANDED,           // On ground
     STATE_ERROR             // Error state
 } FlightState;
 
 // =============================================================================
-// ERROR CODES
+// ERROR CODES (each has a unique LED blink pattern)
 // =============================================================================
 typedef enum {
-    ERR_NONE = 0,
-    ERR_I2C_INIT,
-    ERR_MPU6050_INIT,
-    ERR_BME280_INIT,
-    ERR_GPS_INIT,
-    ERR_SERVO_INIT,
-    ERR_SENSOR_READ,
-    ERR_DEPLOYMENT_FAILED,
-    ERR_BUFFER_OVERFLOW
+    ERR_NONE = 0,           // Green LED solid
+    ERR_I2C_INIT,           // 1 red blink
+    ERR_MPU6050_INIT,       // 2 red blinks
+    ERR_BME280_INIT,        // 3 red blinks
+    ERR_GPS_INIT,           // 4 red blinks
+    ERR_SERVO_INIT,         // 5 red blinks
+    ERR_SD_INIT,            // 6 red blinks
+    ERR_SENSOR_READ,        // 7 red blinks
+    ERR_DEPLOYMENT_FAILED,  // Fast red strobe
+    ERR_BUFFER_OVERFLOW     // Yellow blink
 } ErrorCode;
-
-
 
 #endif // CONFIG_H

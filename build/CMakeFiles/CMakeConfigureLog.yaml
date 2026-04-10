@@ -32,9 +32,7 @@ events:
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -74,7 +72,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -106,9 +103,7 @@ events:
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-g++.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -148,7 +143,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -180,9 +174,7 @@ events:
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -222,7 +214,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -254,9 +245,7 @@ events:
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-objdump.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -296,7 +285,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -333,9 +321,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -375,7 +361,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "message-v1"
@@ -435,9 +420,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -477,7 +460,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "message-v1"
@@ -523,9 +505,7 @@ events:
       - "ar"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -558,15 +538,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-ar.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -606,7 +583,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -630,9 +606,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -665,15 +639,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-ranlib.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -713,7 +684,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -737,9 +707,7 @@ events:
       - "strip"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -772,15 +740,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-strip.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-strip.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -820,7 +785,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -844,9 +808,7 @@ events:
       - "ld"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -879,15 +841,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-ld.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-ld.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -927,7 +886,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -951,9 +909,7 @@ events:
       - "nm"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -986,15 +942,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-nm.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-nm.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1034,7 +987,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -1058,9 +1010,7 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1093,15 +1043,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-readelf.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-readelf.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1141,7 +1088,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -1165,9 +1111,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1200,20 +1144,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-dlltool.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-dlltool.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-dlltool"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-dlltool.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-dlltool.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-dlltool"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-dlltool.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-dlltool.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-dlltool"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-dlltool.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-dlltool.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-dlltool"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-dlltool.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-dlltool.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-dlltool"
@@ -1310,21 +1247,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-dlltool.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-dlltool.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-dlltool"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-dlltool.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-dlltool.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-dlltool"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/dlltool.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/dlltool.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/dlltool"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/dlltool.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/dlltool.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/dlltool"
+      - "C:/Program Files/Google/Chrome/Application/dlltool.com"
+      - "C:/Program Files/Google/Chrome/Application/dlltool.exe"
+      - "C:/Program Files/Google/Chrome/Application/dlltool"
       - "C:/app/oracle/product/11.2.0/server/bin/dlltool.com"
       - "C:/app/oracle/product/11.2.0/server/bin/dlltool.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/dlltool"
@@ -1413,9 +1341,7 @@ events:
     found: "C:/MinGW/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1455,7 +1381,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -1479,9 +1404,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1514,15 +1437,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-addr2line.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1562,7 +1482,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -1586,9 +1505,7 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1621,20 +1538,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-tapi.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-tapi.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-tapi"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-tapi.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-tapi.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-tapi"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-tapi.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-tapi.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-tapi"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-tapi.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-tapi.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-tapi"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-tapi.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-tapi.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-tapi"
@@ -1731,21 +1641,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-tapi.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-tapi.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-tapi"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-tapi.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-tapi.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-tapi"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/tapi.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/tapi.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/tapi"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/tapi.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/tapi"
+      - "C:/Program Files/Google/Chrome/Application/tapi.com"
+      - "C:/Program Files/Google/Chrome/Application/tapi.exe"
+      - "C:/Program Files/Google/Chrome/Application/tapi"
       - "C:/app/oracle/product/11.2.0/server/bin/tapi.com"
       - "C:/app/oracle/product/11.2.0/server/bin/tapi.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/tapi"
@@ -1842,15 +1743,10 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1890,7 +1786,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -1916,9 +1811,7 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1951,20 +1844,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.2.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.2.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.2"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.2.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.2.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.2"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.2.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.2.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.2"
@@ -2061,21 +1947,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.2.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.2.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14"
@@ -2172,21 +2049,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar14"
@@ -2283,16 +2151,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -2332,7 +2195,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -2358,9 +2220,7 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -2393,20 +2253,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.2.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.2.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.2"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.2.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.2.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.2"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.2.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.2.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.2"
@@ -2503,21 +2356,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.2.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.2.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14"
@@ -2614,21 +2458,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib14"
@@ -2725,16 +2560,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -2774,7 +2604,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -2804,9 +2633,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -2846,7 +2673,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "message-v1"
@@ -2906,9 +2732,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -2948,7 +2772,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "message-v1"
@@ -2996,9 +2819,7 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -3031,20 +2852,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.2.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.2.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.2"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.2.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.2.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.2"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.2.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.2.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.2"
@@ -3141,21 +2955,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.2.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.2.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.2"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-14"
@@ -3252,21 +3057,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar14"
@@ -3363,16 +3159,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -3412,7 +3203,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -3438,9 +3228,7 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -3473,20 +3261,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.2.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.2.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.2"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.2.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.2.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.2"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.2.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.2.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.2"
@@ -3583,21 +3364,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.2.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.2.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.2"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-14"
@@ -3694,21 +3466,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib14.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib14.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib14"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib14.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib14.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib14"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib14.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib14.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib14"
@@ -3805,16 +3568,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib14.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib14.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib14"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -3854,7 +3612,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "message-v1"
@@ -3893,9 +3650,7 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -3928,20 +3683,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-"
@@ -4038,21 +3786,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ar-"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ar-"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ar-"
@@ -4149,16 +3888,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ar-"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -4198,7 +3932,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "find-v1"
@@ -4224,9 +3957,7 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -4259,20 +3990,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-"
@@ -4369,21 +4093,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/arm-none-eabi-gcc-ranlib-"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Program Files/Google/Chrome/Application/arm-none-eabi-gcc-ranlib-"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/arm-none-eabi-gcc-ranlib-"
@@ -4480,16 +4195,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-"
       - "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib.com"
     found: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -4529,7 +4239,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
     kind: "try_compile-v1"
@@ -4540,8 +4249,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-adpekt"
-      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-adpekt"
+      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-68xkat"
+      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-68xkat"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
@@ -4552,10 +4261,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-adpekt'
+        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-68xkat'
         
-        Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_e739b
-        [1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_a4ceb
+        [1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE
         Target: arm-none-eabi
@@ -4563,8 +4272,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e739b.dir/'
-         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e739b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccu4uWdB.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4ceb.dir/'
+         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a4ceb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccYDerVS.s
         GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -4581,13 +4290,13 @@ events:
          C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 63ce4b303c7eb47a24bbf869f5c70b36
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e739b.dir/'
-         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccu4uWdB.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4ceb.dir/'
+         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccYDerVS.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj -o cmTC_e739b.elf   && cd ."
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj -o cmTC_a4ceb.elf   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE
         COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe
@@ -4598,10 +4307,10 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e739b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e739b.elf.'
-         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cconn2HM.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_e739b.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4ceb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4ceb.elf.'
+         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccgLKyk2.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_a4ceb.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj
         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000\x0d
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e739b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e739b.elf.'\x0d
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4ceb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4ceb.elf.'\x0d
         
       exitCode: 0
   -
@@ -4634,10 +4343,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-adpekt']
+        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-68xkat']
         ignore line: []
-        ignore line: [Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_e739b]
-        ignore line: [[1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_a4ceb]
+        ignore line: [[1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE]
         ignore line: [Target: arm-none-eabi]
@@ -4645,8 +4354,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e739b.dir/']
-        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e739b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccu4uWdB.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4ceb.dir/']
+        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a4ceb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccYDerVS.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -4663,8 +4372,8 @@ events:
         ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 63ce4b303c7eb47a24bbf869f5c70b36]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e739b.dir/']
-        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccu4uWdB.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4ceb.dir/']
+        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccYDerVS.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/]
@@ -4676,8 +4385,8 @@ events:
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj -o cmTC_e739b.elf   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj -o cmTC_a4ceb.elf   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE]
         ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe]
@@ -4696,17 +4405,17 @@ events:
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e739b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e739b.elf.']
-        link line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cconn2HM.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_e739b.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4ceb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4ceb.elf.']
+        link line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccgLKyk2.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_a4ceb.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj]
           arg [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cconn2HM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccgLKyk2.res] ==> ignore
           arg [--sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e739b.elf] ==> ignore
+          arg [cmTC_a4ceb.elf] ==> ignore
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -4715,10 +4424,10 @@ events:
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_e739b.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_a4ceb.dir/CMakeCCompilerABI.c.obj] ==> ignore
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e739b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e739b.elf.'\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a4ceb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a4ceb.elf.'\x0d]
         ignore line: []
         ignore line: []
         collapse library dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -4743,8 +4452,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-kiiein"
-      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-kiiein"
+      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-7kwe0h"
+      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-7kwe0h"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -4756,10 +4465,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-kiiein'
+        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-7kwe0h'
         
-        Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_cf9be
-        [1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_6581f
+        [1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE
         Target: arm-none-eabi
@@ -4767,8 +4476,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf9be.dir/'
-         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cf9be.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccmcWjc9.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6581f.dir/'
+         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6581f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc3nww2n.s
         GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -4791,13 +4500,13 @@ events:
          C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: dad18755456eb98fd3f9411f1449dfa2
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf9be.dir/'
-         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccmcWjc9.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6581f.dir/'
+         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc3nww2n.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/\x0d
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_cf9be.elf   && cd ."
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6581f.elf   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE
         COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe
@@ -4808,10 +4517,10 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf9be.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf9be.elf.'
-         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4U8WCg.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_cf9be.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6581f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6581f.elf.'
+         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccTIS8Vs.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_6581f.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj
         C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000\x0d
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf9be.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf9be.elf.'\x0d
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6581f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6581f.elf.'\x0d
         
       exitCode: 0
   -
@@ -4850,10 +4559,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-kiiein']
+        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/CMakeFiles/CMakeScratch/TryCompile-7kwe0h']
         ignore line: []
-        ignore line: [Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_cf9be]
-        ignore line: [[1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:\\ninja\\ninja.exe -v cmTC_6581f]
+        ignore line: [[1/2] C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE]
         ignore line: [Target: arm-none-eabi]
@@ -4861,8 +4570,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf9be.dir/']
-        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cf9be.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccmcWjc9.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6581f.dir/']
+        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6581f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc3nww2n.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -4885,8 +4594,8 @@ events:
         ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: dad18755456eb98fd3f9411f1449dfa2]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf9be.dir/']
-        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccmcWjc9.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6581f.dir/']
+        ignore line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc3nww2n.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/]
@@ -4898,8 +4607,8 @@ events:
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_cf9be.elf   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6581f.elf   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR10B2~1.EXE]
         ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe]
@@ -4918,17 +4627,17 @@ events:
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf9be.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf9be.elf.']
-        link line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4U8WCg.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_cf9be.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6581f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6581f.elf.']
+        link line: [ C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccTIS8Vs.res --sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi -X -o cmTC_6581f.elf -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1 -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj]
           arg [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc4U8WCg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccTIS8Vs.res] ==> ignore
           arg [--sysroot=C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_cf9be.elf] ==> ignore
+          arg [cmTC_6581f.elf] ==> ignore
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -4937,10 +4646,10 @@ events:
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-LC:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_cf9be.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_6581f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
         ignore line: [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf9be.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf9be.elf.'\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6581f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6581f.elf.'\x0d]
         ignore line: []
         ignore line: []
         collapse library dir [C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -5083,9 +4792,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -5125,7 +4832,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ignitia_avionics"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
@@ -5346,9 +5052,7 @@ events:
     found: "C:/Python313/python.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -5388,7 +5092,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ignitia_avionics"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
@@ -5469,51 +5172,19 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pico-sdk-toolsConfig.cmake"
+        path: "C:/Program Files/Google/Chrome/Application/pico-sdk-toolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pico-sdk-tools-config.cmake"
+        path: "C:/Program Files/Google/Chrome/Application/pico-sdk-tools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/pico-sdk-tools.cps"
+        path: "C:/Program Files/Google/Chrome/Application/lib/cps/pico-sdk-tools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/pico-sdk-tools.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pico-sdk-toolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pico-sdk-tools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/pico-sdk-tools.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/pico-sdk-tools.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/pico-sdk-toolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/pico-sdk-tools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/lib/cps/pico-sdk-tools.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/share/cps/pico-sdk-tools.cps"
+        path: "C:/Program Files/Google/Chrome/Application/share/cps/pico-sdk-tools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -5965,6 +5636,22 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/pico-sdk-toolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/pico-sdk-tools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/lib/cps/pico-sdk-tools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/share/cps/pico-sdk-tools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pico-sdk-toolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -5980,28 +5667,10 @@ events:
         path: "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/pico-sdk-tools.cps"
         mode: "cps"
         reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/pico-sdk-toolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/pico-sdk-tools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/pico-sdk-tools.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/pico-sdk-tools.cps"
-        mode: "cps"
-        reason: "no_exist"
     found: null
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -6041,7 +5710,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ignitia_avionics"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
@@ -6064,9 +5732,7 @@ events:
     names:
       - "doxygen"
     candidate_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -6100,22 +5766,15 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "/Applications/Doxygen.app/Contents/Resources/"
       - "/Applications/Doxygen.app/Contents/MacOS/"
       - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/doxygen.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/doxygen.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/doxygen"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/doxygen.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/doxygen.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/doxygen"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/doxygen.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/doxygen.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/doxygen"
+      - "C:/Program Files/Google/Chrome/Application/doxygen.com"
+      - "C:/Program Files/Google/Chrome/Application/doxygen.exe"
+      - "C:/Program Files/Google/Chrome/Application/doxygen"
       - "C:/app/oracle/product/11.2.0/server/bin/doxygen.com"
       - "C:/app/oracle/product/11.2.0/server/bin/doxygen.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/doxygen"
@@ -6215,9 +5874,6 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/doxygen.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/doxygen.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/doxygen"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/doxygen.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/doxygen.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/doxygen"
       - "/REGISTRY-NOTFOUND/bin/doxygen.com"
       - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
       - "/REGISTRY-NOTFOUND/bin/doxygen"
@@ -6236,9 +5892,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -6278,7 +5932,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ignitia_avionics"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
   -
@@ -6301,9 +5954,7 @@ events:
     names:
       - "dot"
     candidate_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -6337,7 +5988,6 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/ATT/Graphviz/bin/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "/Applications/Graphviz.app/Contents/MacOS/"
@@ -6347,15 +5997,9 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dot.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dot.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dot"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dot.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dot.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dot"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/dot.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/dot.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/dot"
+      - "C:/Program Files/Google/Chrome/Application/dot.com"
+      - "C:/Program Files/Google/Chrome/Application/dot.exe"
+      - "C:/Program Files/Google/Chrome/Application/dot"
       - "C:/app/oracle/product/11.2.0/server/bin/dot.com"
       - "C:/app/oracle/product/11.2.0/server/bin/dot.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/dot"
@@ -6455,9 +6099,6 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/dot.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/dot.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/dot"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/dot.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/dot.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/dot"
       - "C:/Program Files/ATT/Graphviz/bin/dot.com"
       - "C:/Program Files/ATT/Graphviz/bin/dot.exe"
       - "C:/Program Files/ATT/Graphviz/bin/dot"
@@ -6485,9 +6126,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -6527,7 +6166,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ignitia_avionics"
       CMAKE_FIND_ROOT_PATH: "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1"
 ...

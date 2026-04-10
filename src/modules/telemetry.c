@@ -44,7 +44,7 @@ void telemetry_send_simple_packet(uint32_t timestamp, float altitude, float velo
     memcpy(&packet[offset], &velocity, 4); offset += 4;
     packet[offset++] = state;
     packet[offset++] = 0x55;
-    packet[offset++] = '\n';
+    packet[offset++] = '\n\n';
 
     // Init UART if not done
     if (!simple_telem_uart_initialized) {

@@ -119,7 +119,6 @@ void fusion_get_attitude(const FusionState *state, float *roll, float *pitch, fl
 }
 
 void fusion_reset(FusionState *state) {
-    state->altitude = 0.0f;
-    state->velocity = 0.0f;
-    state->last_update = 0;
+    memset(state, 0, sizeof(FusionState));
+    state->last_update = to_ms_since_boot(get_absolute_time());
 }

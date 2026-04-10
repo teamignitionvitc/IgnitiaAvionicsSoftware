@@ -34,9 +34,7 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -70,71 +68,28 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/xlc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/xlc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/xlc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/xlc.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/xlc.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/xlc"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/cc.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/cc.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/cc"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/cl.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/cl.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/cl"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bcc.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bcc.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bcc"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/xlc.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/xlc.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/xlc"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/icx.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/icx.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/icx"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/clang.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/clang.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/clang"
+      - "C:/Program Files/Google/Chrome/Application/cc.com"
+      - "C:/Program Files/Google/Chrome/Application/cc.exe"
+      - "C:/Program Files/Google/Chrome/Application/cc"
+      - "C:/Program Files/Google/Chrome/Application/gcc.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc"
+      - "C:/Program Files/Google/Chrome/Application/cl.com"
+      - "C:/Program Files/Google/Chrome/Application/cl.exe"
+      - "C:/Program Files/Google/Chrome/Application/cl"
+      - "C:/Program Files/Google/Chrome/Application/bcc.com"
+      - "C:/Program Files/Google/Chrome/Application/bcc.exe"
+      - "C:/Program Files/Google/Chrome/Application/bcc"
+      - "C:/Program Files/Google/Chrome/Application/xlc.com"
+      - "C:/Program Files/Google/Chrome/Application/xlc.exe"
+      - "C:/Program Files/Google/Chrome/Application/xlc"
+      - "C:/Program Files/Google/Chrome/Application/icx.com"
+      - "C:/Program Files/Google/Chrome/Application/icx.exe"
+      - "C:/Program Files/Google/Chrome/Application/icx"
+      - "C:/Program Files/Google/Chrome/Application/clang.com"
+      - "C:/Program Files/Google/Chrome/Application/clang.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang"
       - "C:/app/oracle/product/11.2.0/server/bin/cc.com"
       - "C:/app/oracle/product/11.2.0/server/bin/cc.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/cc"
@@ -751,9 +706,7 @@ events:
     found: "C:/MinGW/bin/gcc.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -793,7 +746,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -821,9 +773,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -863,7 +813,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -907,9 +856,7 @@ events:
       - "ar"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -942,15 +889,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/ar.com"
     found: "C:/MinGW/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -990,7 +934,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1012,9 +955,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1047,15 +988,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/ranlib.com"
     found: "C:/MinGW/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1095,7 +1033,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1117,9 +1054,7 @@ events:
       - "strip"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1152,15 +1087,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/strip.com"
     found: "C:/MinGW/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1200,7 +1132,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1222,9 +1153,7 @@ events:
       - "ld"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1257,15 +1186,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/ld.com"
     found: "C:/MinGW/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1305,7 +1231,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1327,9 +1252,7 @@ events:
       - "nm"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1362,15 +1285,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/nm.com"
     found: "C:/MinGW/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1410,7 +1330,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1432,9 +1351,7 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1467,15 +1384,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/objdump.com"
     found: "C:/MinGW/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1515,7 +1429,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1537,9 +1450,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1572,15 +1483,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/objcopy.com"
     found: "C:/MinGW/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1620,7 +1528,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1642,9 +1549,7 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1677,15 +1582,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/readelf.com"
     found: "C:/MinGW/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1725,7 +1627,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1747,9 +1648,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1782,15 +1681,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/dlltool.com"
     found: "C:/MinGW/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1830,7 +1726,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1852,9 +1747,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1887,15 +1780,12 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/addr2line.com"
     found: "C:/MinGW/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -1935,7 +1825,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1957,9 +1846,7 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -1992,20 +1879,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/tapi.com"
       - "C:/MinGW/bin/tapi.exe"
       - "C:/MinGW/bin/tapi"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/tapi.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/tapi"
+      - "C:/Program Files/Google/Chrome/Application/tapi.com"
+      - "C:/Program Files/Google/Chrome/Application/tapi.exe"
+      - "C:/Program Files/Google/Chrome/Application/tapi"
       - "C:/app/oracle/product/11.2.0/server/bin/tapi.com"
       - "C:/app/oracle/product/11.2.0/server/bin/tapi.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/tapi"
@@ -2102,15 +1982,10 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -2150,7 +2025,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2175,9 +2049,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -2210,20 +2082,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ar-6.3.com"
       - "C:/MinGW/bin/gcc-ar-6.3.exe"
       - "C:/MinGW/bin/gcc-ar-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.3"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.3.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.3.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.3"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.3.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.3.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.3"
@@ -2320,21 +2185,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3"
       - "C:/MinGW/bin/gcc-ar-6.com"
       - "C:/MinGW/bin/gcc-ar-6.exe"
       - "C:/MinGW/bin/gcc-ar-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6"
@@ -2431,21 +2287,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6"
       - "C:/MinGW/bin/gcc-ar6.com"
       - "C:/MinGW/bin/gcc-ar6.exe"
       - "C:/MinGW/bin/gcc-ar6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar6"
@@ -2542,16 +2389,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6"
       - "C:/MinGW/bin/gcc-ar.com"
     found: "C:/MinGW/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -2591,7 +2433,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2616,9 +2457,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -2651,20 +2490,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ranlib-6.3.com"
       - "C:/MinGW/bin/gcc-ranlib-6.3.exe"
       - "C:/MinGW/bin/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.3"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.3.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.3.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.3"
@@ -2761,21 +2593,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3"
       - "C:/MinGW/bin/gcc-ranlib-6.com"
       - "C:/MinGW/bin/gcc-ranlib-6.exe"
       - "C:/MinGW/bin/gcc-ranlib-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6"
@@ -2872,21 +2695,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6"
       - "C:/MinGW/bin/gcc-ranlib6.com"
       - "C:/MinGW/bin/gcc-ranlib6.exe"
       - "C:/MinGW/bin/gcc-ranlib6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib6"
@@ -2983,16 +2797,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6"
       - "C:/MinGW/bin/gcc-ranlib.com"
     found: "C:/MinGW/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -3032,7 +2841,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3064,9 +2872,7 @@ events:
     found: "C:/MinGW/bin/c++.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -3106,7 +2912,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3134,9 +2939,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -3176,7 +2979,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -3223,9 +3025,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -3258,20 +3058,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ar-6.3.com"
       - "C:/MinGW/bin/gcc-ar-6.3.exe"
       - "C:/MinGW/bin/gcc-ar-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.3"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.3"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.3.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.3.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.3"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.3.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.3.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.3"
@@ -3368,21 +3161,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.3"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.3"
       - "C:/MinGW/bin/gcc-ar-6.com"
       - "C:/MinGW/bin/gcc-ar-6.exe"
       - "C:/MinGW/bin/gcc-ar-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar-6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar-6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar-6"
@@ -3479,21 +3263,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar-6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-6"
       - "C:/MinGW/bin/gcc-ar6.com"
       - "C:/MinGW/bin/gcc-ar6.exe"
       - "C:/MinGW/bin/gcc-ar6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ar6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ar6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ar6"
@@ -3590,16 +3365,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ar6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar6"
       - "C:/MinGW/bin/gcc-ar.com"
     found: "C:/MinGW/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -3639,7 +3409,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3664,9 +3433,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/MinGW/bin/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -3699,20 +3466,13 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/MinGW/bin/gcc-ranlib-6.3.com"
       - "C:/MinGW/bin/gcc-ranlib-6.3.exe"
       - "C:/MinGW/bin/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.3"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.3"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.3.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.3.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.3"
@@ -3809,21 +3569,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.3"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.3"
       - "C:/MinGW/bin/gcc-ranlib-6.com"
       - "C:/MinGW/bin/gcc-ranlib-6.exe"
       - "C:/MinGW/bin/gcc-ranlib-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib-6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib-6"
@@ -3920,21 +3671,12 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib-6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-6"
       - "C:/MinGW/bin/gcc-ranlib6.com"
       - "C:/MinGW/bin/gcc-ranlib6.exe"
       - "C:/MinGW/bin/gcc-ranlib6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib6"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib6"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib6"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib6.com"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib6.exe"
+      - "C:/Program Files/Google/Chrome/Application/gcc-ranlib6"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib6.com"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib6.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/gcc-ranlib6"
@@ -4031,16 +3773,11 @@ events:
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.com"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6.exe"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/gcc-ranlib6"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.com"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6.exe"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib6"
       - "C:/MinGW/bin/gcc-ranlib.com"
     found: "C:/MinGW/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -4080,7 +3817,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4104,9 +3840,7 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Google/Chrome/Application/"
       - "C:/app/oracle/product/11.2.0/server/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
@@ -4140,7 +3874,6 @@ events:
       - "C:/Users/VICTUS/AppData/Roaming/npm/"
       - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/VICTUS/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/VICTUS/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -4154,15 +3887,9 @@ events:
       - "C:/Program Files (x86)/elf2uf2/sbin/"
       - "C:/Program Files (x86)/elf2uf2/"
     searched_directories:
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres.com"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres.exe"
-      - "C:/Users/VICTUS/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/windres.com"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/windres.exe"
-      - "C:/Users/VICTUS/AppData/Local/Programs/Microsoft VS Code/windres"
+      - "C:/Program Files/Google/Chrome/Application/windres.com"
+      - "C:/Program Files/Google/Chrome/Application/windres.exe"
+      - "C:/Program Files/Google/Chrome/Application/windres"
       - "C:/app/oracle/product/11.2.0/server/bin/windres.com"
       - "C:/app/oracle/product/11.2.0/server/bin/windres.exe"
       - "C:/app/oracle/product/11.2.0/server/bin/windres"
@@ -4254,9 +3981,7 @@ events:
     found: "C:/MinGW/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
-        - "c:\\Users\\VICTUS\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
-        - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
         - "C:\\app\\oracle\\product\\11.2.0\\server\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp"
@@ -4296,7 +4021,6 @@ events:
         - "C:\\Users\\VICTUS\\AppData\\Roaming\\npm"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\VICTUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\VICTUS\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/elf2uf2"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -4312,8 +4036,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp"
-      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp"
+      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-t01fy5"
+      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-t01fy5"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -4323,18 +4047,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp'
+        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-t01fy5'
         
-        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_a1283
-        [1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_ca3ac
+        [1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccFYEqMS.s
         GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -4355,13 +4079,13 @@ events:
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccFYEqMS.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28\x0d
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/\x0d
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -o cmTC_a1283.exe -Wl,--out-implib,libcmTC_a1283.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj -o cmTC_ca3ac.exe -Wl,--out-implib,libcmTC_ca3ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -4371,12 +4095,12 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1283.exe' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3ac.exe' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc1lYal4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_ca3ac.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ca3ac.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
         collect2 version 6.3.0
-        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc1lYal4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_ca3ac.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ca3ac.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.28\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1283.exe' '-mtune=generic' '-march=i586'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3ac.exe' '-mtune=generic' '-march=i586'\x0d
         
       exitCode: 0
   -
@@ -4409,18 +4133,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-13kzmp']
+        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-t01fy5']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_a1283]
-        ignore line: [[1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_ca3ac]
+        ignore line: [[1/2] C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccFYEqMS.s]
         ignore line: [GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -4441,8 +4165,8 @@ events:
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccRqh6Hh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccFYEqMS.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28\x0d]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -4451,8 +4175,8 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj -o cmTC_a1283.exe -Wl --out-implib libcmTC_a1283.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i586'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj -o cmTC_ca3ac.exe -Wl --out-implib libcmTC_ca3ac.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -4467,13 +4191,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1283.exe' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3ac.exe' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc1lYal4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_ca3ac.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ca3ac.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc1lYal4.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -4492,7 +4216,7 @@ events:
           arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_a1283.exe] ==> ignore
+          arg [cmTC_ca3ac.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -4500,9 +4224,9 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_a1283.dll.a] ==> ignore
+          arg [libcmTC_ca3ac.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4525,7 +4249,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
         ignore line: [collect2 version 6.3.0]
-        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccIHwZng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_a1283.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_a1283.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_a1283.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc1lYal4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_ca3ac.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_ca3ac.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ca3ac.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
         linker tool for 'C': c:/mingw/mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -4563,8 +4287,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig"
-      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig"
+      source: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-p3xm4r"
+      binary: "E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-p3xm4r"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -4575,18 +4299,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig'
+        Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-p3xm4r'
         
-        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_2066c
-        [1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_2e758
+        [1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
         Target: mingw32
         Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
         Thread model: win32
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccCoqMsF.s
         GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
         	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
@@ -4615,13 +4339,13 @@ events:
         warning: MPC header version 1.0.2 differs from library version 1.0.3.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: af09a87986453bf79da3565f33c7648f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccCoqMsF.s
         GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2066c.exe -Wl,--out-implib,libcmTC_2066c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2e758.exe -Wl,--out-implib,libcmTC_2e758.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
@@ -4631,12 +4355,12 @@ events:
         gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
         COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
         LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2066c.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
-         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e758.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc8wHHMP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2e758.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2e758.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
         collect2 version 6.3.0
-        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc8wHHMP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2e758.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2e758.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.28\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2066c.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e758.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'\x0d
         
       exitCode: 0
   -
@@ -4675,18 +4399,18 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-5z2wig']
+        ignore line: [Change Dir: 'E:/IGNITION/IgnitiaAvionicsSoftware/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-p3xm4r']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_2066c]
-        ignore line: [[1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_2e758]
+        ignore line: [[1/2] C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
         ignore line: [Target: mingw32]
         ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
         ignore line: [Thread model: win32]
         ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccCoqMsF.s]
         ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
         ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
@@ -4715,8 +4439,8 @@ events:
         ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cctvZOye.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccCoqMsF.s]
         ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
         ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
         ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -4725,8 +4449,8 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2066c.exe -Wl --out-implib libcmTC_2066c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\MinGW\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2e758.exe -Wl --out-implib libcmTC_2e758.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
@@ -4741,13 +4465,13 @@ events:
         ignore line: [c:/mingw/bin/../lib/gcc/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
         ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2066c.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
-        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e758.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc8wHHMP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2e758.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2e758.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc8wHHMP.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -4770,7 +4494,7 @@ events:
           arg [-u] ==> ignore
           arg [___deregister_frame_info] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2066c.exe] ==> ignore
+          arg [cmTC_2e758.exe] ==> ignore
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
@@ -4778,9 +4502,9 @@ events:
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
           arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2066c.dll.a] ==> ignore
+          arg [libcmTC_2e758.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4804,7 +4528,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
         ignore line: [collect2 version 6.3.0]
-        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\ccxDUcAm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2066c.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2066c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2066c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VICTUS\\AppData\\Local\\Temp\\cc8wHHMP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_2e758.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_2e758.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_2e758.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o\x0d]
         linker tool for 'CXX': c:/mingw/mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]

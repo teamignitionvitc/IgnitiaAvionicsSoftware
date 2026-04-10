@@ -320,6 +320,9 @@ PICO_STDIO_UART:BOOL=ON
 //Globally enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
 
+//No help, variable specified on the command line.
+PIOASM_NO_RECOMPILE:UNINITIALIZED=ON
+
 //Value Computed by CMake
 ignitia_avionics_BINARY_DIR:STATIC=E:/IGNITION/IgnitiaAvionicsSoftware/build
 
@@ -517,7 +520,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/r
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common/cmsis E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/common E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/lib/cyw43-driver/src E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2_common E:/IGNITION/IgnitiaAvionicsSoftware/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

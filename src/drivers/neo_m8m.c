@@ -1,6 +1,6 @@
 /**
  * @file neo_m8m.c
- * @brief NEO-M8M GPS NMEA parser implementation
+ * @brief NEO-M8M-0-10 GPS driver with UBX configuration and NMEA parser
  */
 
 #include "neo_m8m.h"
@@ -9,12 +9,16 @@
 #include "hardware/gpio.h"
 #include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 static char rx_buffer[GPS_BUFFER_SIZE];
 static uint16_t rx_index = 0;
 static GPS_Data current_data = {0};
 static bool data_ready = false;
 
+// ---------------------------------------------------------------------------
+// NMEA parsing helpers
+// ---------------------------------------------------------------------------
 static float parse_coord(const char *str, char dir) {
     if (!str || strlen(str) < 4) return 0.0f;
     
@@ -127,6 +131,79 @@ static void process_sentence(char *sentence) {
     }
 }
 
+// ---------------------------------------------------------------------------
+// UBX protocol helpers (for NEO-M8M configuration)
+// ---------------------------------------------------------------------------
+static void ubx_send(uint8_t cls, uint8_t id, const uint8_t *payload, uint16_t len) {
+    uint8_t header[6];
+    header[0] = 0xB5;  // Sync char 1
+    header[1] = 0x62;  // Sync char 2
+    header[2] = cls;
+    header[3] = id;
+    header[4] = len & 0xFF;
+    header[5] = (len >> 8) & 0xFF;
+
+    // Calculate checksum (Fletcher-16 over class, id, length, payload)
+    uint8_t ck_a = 0, ck_b = 0;
+    for (int i = 2; i < 6; i++) {
+        ck_a += header[i];
+        ck_b += ck_a;
+    }
+    for (uint16_t i = 0; i < len; i++) {
+        ck_a += payload[i];
+        ck_b += ck_a;
+    }
+
+    // Send header
+    for (int i = 0; i < 6; i++) {
+        uart_putc_raw(GPS_UART, header[i]);
+    }
+    // Send payload
+    for (uint16_t i = 0; i < len; i++) {
+        uart_putc_raw(GPS_UART, payload[i]);
+    }
+    // Send checksum
+    uart_putc_raw(GPS_UART, ck_a);
+    uart_putc_raw(GPS_UART, ck_b);
+}
+
+/**
+ * Configure NEO-M8M navigation rate.
+ * UBX-CFG-RATE: measRate (ms), navRate (cycles), timeRef (0=UTC)
+ */
+static void gps_configure_rate(uint16_t rate_hz) {
+    uint16_t meas_ms = 1000 / rate_hz;
+    uint8_t payload[6];
+    payload[0] = meas_ms & 0xFF;
+    payload[1] = (meas_ms >> 8) & 0xFF;
+    payload[2] = 1;   // navRate = 1 (every measurement)
+    payload[3] = 0;
+    payload[4] = 0;   // timeRef = UTC
+    payload[5] = 0;
+    ubx_send(0x06, 0x08, payload, 6);  // CFG-RATE
+    sleep_ms(100);
+}
+
+/**
+ * Configure NEO-M8M for airborne <1g dynamics model.
+ * UBX-CFG-NAV5: dynModel=6 (airborne <1g), fixMode=3 (auto 2D/3D)
+ */
+static void gps_configure_airborne(void) {
+    uint8_t payload[36];
+    memset(payload, 0, sizeof(payload));
+    // mask: apply dynModel and fixMode
+    payload[0] = 0x05; payload[1] = 0x00;
+    // dynModel: 6 = airborne <1g (best for CanSat/drone)
+    payload[2] = 6;
+    // fixMode: 3 = auto 2D/3D
+    payload[3] = 3;
+    ubx_send(0x06, 0x24, payload, 36);  // CFG-NAV5
+    sleep_ms(100);
+}
+
+// ---------------------------------------------------------------------------
+// Public API
+// ---------------------------------------------------------------------------
 bool gps_init(void) {
     uart_init(GPS_UART, GPS_BAUDRATE);
     gpio_set_function(GPS_TX_PIN, GPIO_FUNC_UART);
@@ -138,8 +215,58 @@ bool gps_init(void) {
     
     memset(&current_data, 0, sizeof(current_data));
     rx_index = 0;
+
+    // Give the NEO-M8M time to boot (needs ~1s after power-on)
+    sleep_ms(1000);
+
+    // Configure airborne dynamics model (for CanSat/drone use)
+    printf("  Configuring airborne mode...\r\n");
+    gps_configure_airborne();
+
+    // Configure navigation rate
+    printf("  Setting nav rate to %d Hz...\r\n", GPS_NAV_RATE_HZ);
+    gps_configure_rate(GPS_NAV_RATE_HZ);
     
     return true;
+}
+
+/**
+ * Wait for GPS fix with timeout. Call after gps_init().
+ * Prints satellite count while waiting.
+ * Returns true if fix acquired, false if timeout.
+ */
+bool gps_wait_for_lock(uint32_t timeout_ms) {
+    printf("[GPS] Waiting for fix (timeout %lus)...\r\n",
+           (unsigned long)(timeout_ms / 1000));
+
+    uint32_t start = to_ms_since_boot(get_absolute_time());
+    uint32_t last_print = 0;
+
+    while ((to_ms_since_boot(get_absolute_time()) - start) < timeout_ms) {
+        gps_process();
+
+        uint32_t now = to_ms_since_boot(get_absolute_time());
+        // Print status every 2 seconds
+        if ((now - last_print) >= 2000) {
+            last_print = now;
+            uint32_t elapsed = (now - start) / 1000;
+            if (current_data.valid && current_data.fix_quality > 0) {
+                printf("[GPS] LOCKED! Sats=%d Fix=%d HDOP=%.1f (%lus)\r\n",
+                       current_data.satellites, current_data.fix_quality,
+                       current_data.hdop, (unsigned long)elapsed);
+                return true;
+            } else {
+                printf("[GPS] Searching... Sats=%d (%lus)\r\n",
+                       current_data.satellites, (unsigned long)elapsed);
+            }
+        }
+
+        sleep_ms(50);  // Don't spin too fast
+    }
+
+    printf("[GPS] Timeout — no fix after %lus (sats=%d). Continuing anyway.\r\n",
+           (unsigned long)(timeout_ms / 1000), current_data.satellites);
+    return false;
 }
 
 void gps_process(void) {

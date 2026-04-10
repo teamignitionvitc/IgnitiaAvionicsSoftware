@@ -34,10 +34,15 @@ add_executable(ignitia_avionics
     src/drivers/neo_m8m.c
     src/drivers/servo.c
     src/drivers/nrf_radio.c
+    src/drivers/guva_hw837.c
+    src/drivers/sd_card.c
+    src/drivers/ws2812.c
+    src/drivers/buzzer.c
     src/modules/flight_state.c
     src/modules/deployment.c
     src/modules/telemetry.c
     src/modules/sensor_fusion.c
+    src/modules/sd_logger.c
     src/utils/ring_buffer.c
     src/utils/filters.c
 )
@@ -53,6 +58,7 @@ target_include_directories(ignitia_avionics PRIVATE
 # Link required Pico SDK libraries
 target_link_libraries(ignitia_avionics
     pico_stdlib
+    pico_multicore
     hardware_i2c
     hardware_uart
     hardware_pwm
@@ -60,6 +66,7 @@ target_link_libraries(ignitia_avionics
     hardware_gpio
     hardware_adc
     hardware_clocks
+    hardware_spi
 )
 
 # Enable USB output, disable UART for stdio (we use UART1 for GPS)

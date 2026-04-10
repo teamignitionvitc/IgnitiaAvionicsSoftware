@@ -5,21 +5,27 @@
  * RP2040-Zero based flight computer
  * Sensors: MPU6050, BME280, NEO-M8M GPS
  * Actuator: Servo for parachute deployment
- * Telemetry: NRF UART radio + USB debug
+ * Telemetry: UART radio on Core 1 + USB debug on Core 0
  * 
- * Flight Profile:
- *   1. IDLE - Power on, calibrating
- *   2. ARMED - Attached to drone, ascending
- *   3. FREEFALL - Dropped, detecting descent
- *   4. DEPLOYED - Parachute released
- *   5. LANDED - On ground
+ * Flight Profile (altitude-only transitions):
+ *   1. IDLE    - Power on, calibrating
+ *   2. ARMED   - Attached to drone, ascending (altitude > 1m)
+ *   3. APOGEE  - Peak altitude detected, altitude dropping
+ *   4. FREEFALL- Confirmed descent, parachute deploys
+ *   5. DEPLOYED- Parachute released, descending
+ *   6. LANDED  - On ground (altitude near baseline for 3s)
+ * 
+ * Core 0: Sensor polling, state machine, deployment, USB debug
+ * Core 1: UART telemetry TX (GP0/GP1 at 115200 baud)
  */
 
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include "pico/stdlib.h"
+#include "pico/multicore.h"
 #include "hardware/i2c.h"
+#include "hardware/uart.h"
 #include "hardware/gpio.h"
 
 #include "config.h"
@@ -28,10 +34,218 @@
 #include "neo_m8m.h"
 #include "servo.h"
 #include "nrf_radio.h"
+#include "guva_hw837.h"
+#include "ws2812.h"
+#include "buzzer.h"
 #include "flight_state.h"
 #include "deployment.h"
 #include "telemetry.h"
 #include "sensor_fusion.h"
+#include "sd_logger.h"
+
+// =============================================================================
+// TELEMETRY SNAPSHOT — Shared between Core 0 (writer) and Core 1 (reader)
+// =============================================================================
+// Lock-free synchronization: Core 0 increments sequence before and after writing.
+// Core 1 reads seq1, copies data, reads seq2. If seq1 == seq2 and even → valid.
+typedef struct {
+    volatile uint32_t sequence;       // Incremented by Core 0 before/after write
+    float altitude;
+    uint8_t state;
+    float temperature;
+    float pressure;
+    float humidity;
+    float baro_altitude;
+    float accel_x, accel_y, accel_z;
+    float gyro_x, gyro_y, gyro_z;
+    float imu_temperature;
+    double latitude, longitude;
+    float gps_altitude;
+    int gps_satellites;
+    float gps_speed;
+    int gps_fix_quality;
+    float velocity;
+    float max_altitude;
+    float baseline_altitude;
+    float uv_voltage;
+    bool deployed;
+    uint8_t gp12_value;           // Digital sensor on GP12 (0 or 1)
+} TelemetrySnapshot;
+
+static volatile TelemetrySnapshot telem_shared;
+
+// =============================================================================
+// CORE 1 — UART Telemetry + SD Card Logging
+// =============================================================================
+static void core1_telemetry_loop(void) {
+    // Initialize UART0 on GP0 (TX) and GP1 (RX) at 115200 baud.
+    uart_init(NRF_UART, NRF_BAUDRATE);
+    gpio_set_function(NRF_TX_PIN, GPIO_FUNC_UART);
+    gpio_set_function(NRF_RX_PIN, GPIO_FUNC_UART);
+    uart_set_hw_flow(NRF_UART, false, false);
+    uart_set_format(NRF_UART, 8, 1, UART_PARITY_NONE);
+    uart_set_fifo_enabled(NRF_UART, true);
+
+    // Initialize SD card logger
+    bool sd_ok = sd_logger_init();
+    if (!sd_ok) {
+        printf("[CORE1] SD card not available — UART only\r\n");
+    }
+
+    uint32_t last_flush = to_ms_since_boot(get_absolute_time());
+    uint32_t last_uart_tx = 0;
+    uint32_t last_tx_time = to_ms_since_boot(get_absolute_time());
+    float measured_hz = 0.0f;
+
+    while (true) {
+        uint32_t now = to_ms_since_boot(get_absolute_time());
+
+        // Read snapshot with sequence-counter validation.
+        TelemetrySnapshot snap;
+        uint32_t seq1, seq2;
+        do {
+            seq1 = telem_shared.sequence;
+            __dmb();
+            memcpy((void*)&snap, (const void*)&telem_shared, sizeof(TelemetrySnapshot));
+            __dmb();
+            seq2 = telem_shared.sequence;
+        } while (seq1 != seq2 || (seq1 & 1));
+
+        // Format CSV line (shared by both SD and UART).
+        char csv_packet[400];
+        int len = snprintf(csv_packet, sizeof(csv_packet),
+            "%lu,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.6f,%.6f,%.2f,%d,%.2f,%d,%.2f,%.2f,%.3f,%d,%d\n",
+            (unsigned long)now,//1 time_ms
+            (int)snap.state,//2 state
+            snap.altitude,//3
+            snap.temperature,//4
+            snap.pressure / 100.0f,//5
+            snap.baro_altitude,//6
+            snap.accel_x,//7
+            snap.accel_y,//8
+            snap.accel_z,//9
+            snap.gyro_x,//10
+            snap.gyro_y,//11
+            snap.gyro_z,//12
+            snap.latitude,//13
+            snap.longitude,//14
+            snap.gps_altitude,//15
+            snap.gps_satellites,//16
+            snap.gps_speed,//17
+            snap.gps_fix_quality,//18
+            snap.velocity,//19
+            snap.max_altitude,//20
+            snap.uv_voltage,//21
+            snap.deployed ? 1 : 0,//22
+            snap.gp12_value//23
+        );
+
+        // --- SD CARD: log every cycle (fast, SD_LOG_RATE_HZ) ---
+        if (sd_ok && sd_logger_is_ready()) {
+            sd_logger_write_line(csv_packet);
+
+            // Periodic flush
+            if ((now - last_flush) >= SD_LOG_FLUSH_INTERVAL_MS) {
+                sd_logger_flush();
+                last_flush = now;
+            }
+        }
+
+        // --- UART TX: only at TELEMETRY_INTERVAL_MS (slow) ---
+        if ((now - last_uart_tx) >= TELEMETRY_INTERVAL_MS) {
+            last_uart_tx = now;
+
+            // UART transmit with timeout.
+            size_t sent = 0;
+            uint32_t start = to_ms_since_boot(get_absolute_time());
+            while (sent < (size_t)len) {
+                if (uart_is_writable(NRF_UART)) {
+                    uart_putc_raw(NRF_UART, csv_packet[sent]);
+                    sent++;
+                }
+                if ((to_ms_since_boot(get_absolute_time()) - start) > UART_TX_TIMEOUT_MS) {
+                    break;
+                }
+            }
+
+            // Confirm UART TX on USB debug
+            if (sent > 0) {
+                uint32_t tx_time = to_ms_since_boot(get_absolute_time());
+                uint32_t dt = tx_time - last_tx_time;
+                if (dt > 0) {
+                    measured_hz = 1000.0f / (float)dt;
+                }
+                last_tx_time = tx_time;
+                printf("TX:%d bytes @ %.1f Hz\r\n", (int)sent, measured_hz);
+            }
+        }
+
+        // Loop at SD_LOG_INTERVAL_MS (20ms = 50 Hz)
+        sleep_ms(SD_LOG_INTERVAL_MS);
+    }
+}
+
+// UV sensor reading (updated in process_sensors, read by telemetry snapshot)
+static float uv_voltage = 0.0f;
+
+// Helper: Core 0 updates the shared telemetry snapshot.
+static void update_telemetry_snapshot(
+    const FlightStateContext *flight,
+    const BME280_Data *env,
+    const MPU6050_Data *imu,
+    const GPS_Data *gps,
+    bool bme_available,
+    bool mpu_available
+) {
+    // Odd sequence = "write in progress".
+    telem_shared.sequence++;
+    __dmb();
+
+    telem_shared.altitude = flight->current_altitude;
+    telem_shared.state = (uint8_t)flight_state_get(flight);
+    telem_shared.velocity = flight->current_velocity;
+    telem_shared.max_altitude = flight->max_altitude;
+    telem_shared.baseline_altitude = flight->baseline_altitude;
+    telem_shared.deployed = flight->deployed;
+
+    if (bme_available && env) {
+        telem_shared.temperature = env->temperature;
+        telem_shared.pressure = env->pressure;
+        telem_shared.humidity = env->humidity;
+        telem_shared.baro_altitude = env->altitude;
+    }
+
+    if (mpu_available && imu) {
+        telem_shared.accel_x = imu->accel_x;
+        telem_shared.accel_y = imu->accel_y;
+        telem_shared.accel_z = imu->accel_z;
+        telem_shared.gyro_x = imu->gyro_x;
+        telem_shared.gyro_y = imu->gyro_y;
+        telem_shared.gyro_z = imu->gyro_z;
+        telem_shared.imu_temperature = imu->temperature;
+    }
+
+    if (gps) {
+        telem_shared.latitude = gps->latitude;
+        telem_shared.longitude = gps->longitude;
+        telem_shared.gps_altitude = gps->altitude;
+        telem_shared.gps_satellites = gps->satellites;
+        telem_shared.gps_speed = gps->speed;
+        telem_shared.gps_fix_quality = gps->fix_quality;
+    }
+
+    // UV sensor (use value already read in process_sensors)
+    telem_shared.uv_voltage = uv_voltage;
+    telem_shared.gp12_value = gpio_get(SENSOR_GP12_PIN) ? 1 : 0;
+
+    __dmb();
+    // Even sequence = "write complete".
+    telem_shared.sequence++;
+}
+
+// =============================================================================
+// CORE 0 — Sensor polling, state machine, deployment, USB debug
+// =============================================================================
 
 // Global state
 static FlightStateContext flight_ctx;
@@ -57,7 +271,6 @@ static float imu_bias_gz = 0.0f;
 // Timing
 static uint32_t last_sensor_read = 0;
 static uint32_t last_gps_read = 0;
-static uint32_t last_telemetry = 0;
 static uint32_t last_debug_print = 0;
 static uint32_t last_mpu_retry = 0;
 static uint32_t last_mpu_fail_log = 0;
@@ -73,78 +286,48 @@ static uint32_t state_event_time_ms[STATE_EVENT_BUFFER_SIZE];
 static uint8_t state_event_index = 0;
 static uint8_t state_event_count = 0;
 
-static void buzzer_init(void) {
-    gpio_init(BUZZER_PIN);
-    gpio_set_dir(BUZZER_PIN, GPIO_OUT);
-    gpio_put(BUZZER_PIN, 0);
-}
+static void init_peripherals(void) {
+    // WS2812B RGB LED (RP2040-Zero built-in on GP16)
+    ws2812_init();
+    ws2812_blue();  // Blue = initializing
 
-static void init_leds(void) {
+    // Passive buzzer (PWM-driven)
+    buzzer_init();
+
+    // External status LEDs (optional)
     gpio_init(STATUS_LED_PIN);
     gpio_set_dir(STATUS_LED_PIN, GPIO_OUT);
     gpio_put(STATUS_LED_PIN, 0);
-
     gpio_init(CAL_LED_PIN);
     gpio_set_dir(CAL_LED_PIN, GPIO_OUT);
     gpio_put(CAL_LED_PIN, 0);
-}
 
-static void buzzer_beep(uint8_t count, uint32_t on_ms, uint32_t off_ms) {
-    for (uint8_t i = 0; i < count; i++) {
-        gpio_put(BUZZER_PIN, 1);
-        sleep_ms(on_ms);
-        gpio_put(BUZZER_PIN, 0);
-        sleep_ms(off_ms);
-    }
+    // Digital sensor on GP12 (input)
+    gpio_init(SENSOR_GP12_PIN);
+    gpio_set_dir(SENSOR_GP12_PIN, GPIO_IN);
+    gpio_pull_down(SENSOR_GP12_PIN);
 }
 
 static void indicate_phase(uint8_t phase) {
     switch (phase) {
         case 1: // Boot/startup
-            gpio_put(CAL_LED_PIN, 1);
-            gpio_put(STATUS_LED_PIN, 1);
-            buzzer_beep(1, 35, 10);
-            sleep_ms(80);
-            gpio_put(CAL_LED_PIN, 0);
-            gpio_put(STATUS_LED_PIN, 0);
+            ws2812_blue();
+            buzzer_tone(1000, 100);
             break;
         case 2: // MPU init/calibration
-            for (int i = 0; i < 2; i++) {
-                gpio_put(CAL_LED_PIN, 1);
-                gpio_put(STATUS_LED_PIN, 0);
-                sleep_ms(70);
-                gpio_put(CAL_LED_PIN, 0);
-                sleep_ms(40);
-            }
-            buzzer_beep(2, 25, 20);
+            ws2812_set_rgb(0, 0, 40);  // Brighter blue
+            buzzer_tone(1200, 80);
             break;
         case 3: // BMP init/calibration
-            for (int i = 0; i < 2; i++) {
-                gpio_put(STATUS_LED_PIN, 1);
-                gpio_put(CAL_LED_PIN, 0);
-                sleep_ms(70);
-                gpio_put(STATUS_LED_PIN, 0);
-                sleep_ms(40);
-            }
-            buzzer_beep(1, 70, 20);
+            ws2812_set_rgb(0, 15, 30); // Cyan-ish
+            buzzer_tone(1400, 80);
             break;
         case 4: // Settling
-            gpio_put(CAL_LED_PIN, 1);
-            gpio_put(STATUS_LED_PIN, 1);
-            sleep_ms(60);
-            gpio_put(CAL_LED_PIN, 0);
-            gpio_put(STATUS_LED_PIN, 0);
+            ws2812_set_rgb(20, 10, 0); // Amber
             break;
-        case 5: // Ready
-            for (int i = 0; i < 2; i++) {
-                gpio_put(CAL_LED_PIN, 1);
-                gpio_put(STATUS_LED_PIN, 1);
-                sleep_ms(60);
-                gpio_put(CAL_LED_PIN, 0);
-                gpio_put(STATUS_LED_PIN, 0);
-                sleep_ms(40);
-            }
-            buzzer_beep(2, 60, 30);
+        case 5: // Ready — play startup melody
+            ws2812_green();
+            buzzer_startup_melody();
             break;
         default:
             break;
@@ -478,9 +661,8 @@ static bool init_hardware(void) {
            FIRMWARE_VERSION_MAJOR, FIRMWARE_VERSION_MINOR, FIRMWARE_VERSION_PATCH);
     printf("========================================\r\n");
     
-    // LEDs + buzzer (startup indication)
-    init_leds();
-    buzzer_init();
+    // LEDs, WS2812B, buzzer
+    init_peripherals();
     indicate_phase(1);
     
     // Early diagnostics: detect where I2C devices are physically present.
@@ -542,6 +724,9 @@ static bool init_hardware(void) {
     }
     printf("OK\r\n");
     
+    // Wait for GPS lock (NEO-M8M-0-10)
+    gps_wait_for_lock(GPS_LOCK_TIMEOUT_MS);
+    
     // Initialize servo
     printf("Initializing Servo... ");
     if (!servo_init()) {
@@ -552,6 +737,11 @@ static bool init_hardware(void) {
     
     // Initialize deployment system
     deployment_init();
+
+    // Initialize UV sensor
+    printf("Initializing GUVA-HW837 UV... ");
+    guva_hw837_init();
+    printf("OK\r\n");
 
     // Allow sensors to thermally/electrically settle before calibration.
     printf("Settling sensors for %d ms...\r\n", SENSOR_SETTLE_TIME_MS);
@@ -664,6 +854,9 @@ static void process_sensors(void) {
                 printf("BME280 read failed; marking unavailable\r\n");
             }
         }
+
+        // Read UV sensor (analog, always available)
+        uv_voltage = guva_hw837_read_uv();
         
         // Update fusion with whichever sensors are available.
         const BME280_Data *baro_ptr = sensor_bme_available ? &env_data : NULL;
@@ -677,6 +870,10 @@ static void process_sensors(void) {
             fusion_get_altitude(&fusion_state),
             fusion_get_velocity(&fusion_state),
             sensor_mpu_available ? imu_data.accel_magnitude : 1.0f);
+
+        // Update shared telemetry snapshot for Core 1.
+        update_telemetry_snapshot(&flight_ctx, &env_data, &imu_data, &gps_data,
+            sensor_bme_available, sensor_mpu_available);
 
         // Emit state transition logs with key fusion values.
         FlightState current_state = flight_state_get(&flight_ctx);
@@ -727,41 +924,31 @@ static void process_deployment(void) {
     }
 }
 
-static void process_telemetry(void) {
-    uint32_t now = to_ms_since_boot(get_absolute_time());
-    
-    if ((now - last_telemetry) >= TELEMETRY_INTERVAL_MS) {
-        last_telemetry = now;
-        
-        // NRF telemetry skipped for now (radio not connected)
-        // Send main telemetry packet via NRF (only if BME280 available)
-        if (sensor_bme_available) {
-            telemetry_send_packet(&flight_ctx, &env_data, &imu_data, &gps_data);
-        }
-
-        // Send GPS separately at lower rate
-        static uint32_t last_gps_telem = 0;
-        if ((now - last_gps_telem) >= 1000 && gps_data.valid) {
-            telemetry_send_gps(&gps_data);
-            last_gps_telem = now;
-        }
-    }
-    
-    // Process incoming NRF commands (skipped - no NRF)
-    // telemetry_process();
-}
-
 static void print_sensor_data(void) {
     uint32_t now = to_ms_since_boot(get_absolute_time());
 
     if ((now - last_debug_print) >= debug_print_interval_ms) {
         last_debug_print = now;
 
-        printf("T=%lu,ST=%s,BP=%.3f,ALT=%.2f\r\n",
+        // Print ALL telemetry data (same fields as UART CSV)
+        printf("T=%lu,ST=%s,ALT=%.2f,VEL=%.2f,MAX=%.2f,BASE=%.2f,"
+               "TEMP=%.2f,PRESS=%.2f,HUM=%.1f,BALT=%.2f,"
+               "AX=%.2f,AY=%.2f,AZ=%.2f,GX=%.1f,GY=%.1f,GZ=%.1f,"
+               "UV=%.3f,DEP=%d\r\n",
             (unsigned long)now,
             flight_state_name(flight_state_get(&flight_ctx)),
+            fusion_get_altitude(&fusion_state),
+            fusion_get_velocity(&fusion_state),
+            flight_ctx.max_altitude,
+            flight_ctx.baseline_altitude,
+            env_data.temperature,
             env_data.pressure / 100.0f,
-            fusion_get_altitude(&fusion_state));
+            env_data.humidity,
+            env_data.altitude,
+            imu_data.accel_x, imu_data.accel_y, imu_data.accel_z,
+            imu_data.gyro_x, imu_data.gyro_y, imu_data.gyro_z,
+            uv_voltage,
+            flight_ctx.deployed);
     }
 }
 
@@ -777,10 +964,11 @@ static void process_commands(void) {
             led_blink(3, 100, 100);
             break;
             
-        case 'd':  // Disarm
-            flight_state_disarm(&flight_ctx);
+        case 'd':  // Reset and re-arm
+            flight_state_init(&flight_ctx);
+            flight_state_arm(&flight_ctx);
             deployment_disarm();
-            telemetry_send_status("DISARMED");
+            telemetry_send_status("RE-ARMED");
             break;
             
         case 't':  // Test servo
@@ -796,15 +984,14 @@ static void process_commands(void) {
             break;
             
         case 's':  // Status
-            printf("$STS,State=%s,Alt=%.1f,Vel=%.1f,Accel=%.2f,Deployed=%d,DropAlt=%.1f,BaseAlt=%.1f,LaunchAlt=%.1f\r\n",
+            printf("$STS,State=%s,Alt=%.1f,Vel=%.1f,Accel=%.2f,Deployed=%d,BaseAlt=%.1f,MaxAlt=%.1f\r\n",
                 flight_state_name(flight_state_get(&flight_ctx)),
                 flight_ctx.current_altitude,
                 flight_ctx.current_velocity,
                 flight_ctx.current_accel,
                 flight_ctx.deployed,
-                flight_ctx.drop_altitude,
                 flight_ctx.baseline_altitude,
-                flight_ctx.launch_altitude);
+                flight_ctx.max_altitude);
             print_state_event_buffer(8);
             break;
         
@@ -843,15 +1030,15 @@ static void process_commands(void) {
                 printf("GPS: NO FIX (searching...)\r\n");
             }
             
-            printf("Flight: State=%s, Alt=%.1f m, Vel=%.1f m/s, Accel=%.2f m/s²\r\n\r\n",
+            printf("Flight: State=%s, Alt=%.1f m, Vel=%.1f m/s, Accel=%.2f g\r\n",
                 flight_state_name(flight_state_get(&flight_ctx)),
                 flight_ctx.current_altitude,
                 flight_ctx.current_velocity,
                 flight_ctx.current_accel);
-            printf("Launch Detect: base=%.2f m, launch=%.2f m, confirm=%u\r\n\r\n",
+            printf("Baseline: %.2f m, Max: %.2f m, Apogee confirm: %u\r\n",
                 flight_ctx.baseline_altitude,
-                flight_ctx.launch_altitude,
-                (unsigned)flight_ctx.launch_confirm_count);
+                flight_ctx.max_altitude,
+                (unsigned)flight_ctx.apogee_confirm_count);
             printf("Altitude zero: %s, ref=%.2f m, samples=%u\r\n\r\n",
                 fusion_state.altitude_zeroed ? "YES" : "NO",
                 fusion_state.altitude_reference,
@@ -867,7 +1054,7 @@ static void process_commands(void) {
             break;
 
         case 'b':  // Buzzer test
-            buzzer_beep(2, 80, 40);
+            buzzer_tone(BUZZER_FREQ_INIT, 200);
             break;
 
         case 'p':  // Probe I2C buses now
@@ -902,31 +1089,38 @@ static void process_commands(void) {
             printf("  b - Buzzer test\r\n");
             printf("  c - Calibrate sensors\r\n");
             printf("  h - Help\r\n");
-            printf("\r\nFlight sequence:\r\n");
-            printf("  IDLE -> ARM -> (drone drop) -> FREEFALL -> DEPLOYED -> LANDED\r\n\r\n");
+            printf("\r\nFlight sequence (altitude-only):\r\n");
+            printf("  IDLE -> ARMED -> APOGEE -> FREEFALL -> DEPLOYED -> LANDED\r\n");
+            printf("  Core 1: UART telemetry on GP0/GP1 @ 115200 baud\r\n\r\n");
             break;
     }
 }
 
 static void update_led(void) {
-    static uint32_t last_blink = 0;
-    static bool led_state = false;
-    uint32_t now = to_ms_since_boot(get_absolute_time());
-    
-    uint32_t interval;
-    switch (flight_state_get(&flight_ctx)) {
-        case STATE_IDLE:      interval = 1000; break;  // Slow blink
-        case STATE_ARMED:     interval = 200;  break;  // Fast blink - ready
-        case STATE_FREEFALL:  interval = 50;   break;  // Very fast - falling!
-        case STATE_DEPLOYED:  interval = 500;  break;  // Medium - descending
-        case STATE_LANDED:    interval = 2000; break;  // Very slow - done
-        default:              interval = 100;  break;  // Error
+    static FlightState last_state = STATE_INIT;
+    static uint32_t last_landed_beep = 0;
+    FlightState state = flight_state_get(&flight_ctx);
+
+    // Update WS2812B LED color based on state
+    if (state != last_state) {
+        switch (state) {
+            case STATE_ARMED:    ws2812_green();  break;  // Green = ready
+            case STATE_APOGEE:   ws2812_white();  break;  // White = deploying
+            case STATE_DEPLOYED: ws2812_blue();   break;  // Blue = descending
+            case STATE_LANDED:   ws2812_yellow(); break;  // Yellow = landed
+            case STATE_ERROR:    ws2812_red();    break;  // Red = error
+            default:             ws2812_blue();   break;
+        }
+        last_state = state;
     }
-    
-    if ((now - last_blink) >= interval) {
-        last_blink = now;
-        led_state = !led_state;
-        gpio_put(STATUS_LED_PIN, led_state);
+
+    // Buzzer: only during LANDED (locator beep)
+    if (state == STATE_LANDED) {
+        uint32_t now = to_ms_since_boot(get_absolute_time());
+        if ((now - last_landed_beep) >= 2000) {
+            last_landed_beep = now;
+            buzzer_tone(BUZZER_FREQ_LANDED, BUZZER_BEEP_MS);
+        }
     }
 }
 
@@ -949,16 +1143,24 @@ int main(void) {
     flight_state_init(&flight_ctx);
     printf("[DEBUG] Initializing sensor fusion...\r\n");
     fusion_init(&fusion_state);
+
+    // Auto-arm: go directly to ARMED after calibration (no IDLE state)
+    flight_state_arm(&flight_ctx);
+    ws2812_green();  // Green = armed and ready
     
-    // Skip NRF telemetry for now (radio not connected)
-    // printf("[DEBUG] Sending SYSTEM READY status...\r\n");
-    // telemetry_send_status("SYSTEM READY");
-    printf("[DEBUG] NRF telemetry skipped (not connected)\r\n");
+    // Initialize shared telemetry snapshot.
+    memset((void*)&telem_shared, 0, sizeof(TelemetrySnapshot));
+
+    // Launch Core 1 for UART telemetry.
+    printf("[CORE1] Launching UART telemetry on Core 1 (GP%d TX, GP%d RX, %d baud)...\r\n",
+        NRF_TX_PIN, NRF_RX_PIN, NRF_BAUDRATE);
+    multicore_launch_core1(core1_telemetry_loop);
+    printf("[CORE1] Telemetry running on Core 1\r\n");
     
     printf("Type 'h' for help\r\n\r\n");
-    printf("[DEBUG] Entering main loop...\r\n");
+    printf("[DEBUG] Entering main loop (Core 0: sensors + state machine)...\r\n");
     
-    // Main loop
+    // Main loop (Core 0: sensors, state machine, deployment, USB debug)
     while (1) {
         static uint32_t loop_counter = 0;
         if ((loop_counter++ % 1000) == 0) {
@@ -966,7 +1168,7 @@ int main(void) {
         }
         process_sensors();
         process_deployment();
-        process_telemetry();
+        // Telemetry is handled by Core 1 — no process_telemetry() call here.
         print_sensor_data();
         process_commands();
         update_led();
